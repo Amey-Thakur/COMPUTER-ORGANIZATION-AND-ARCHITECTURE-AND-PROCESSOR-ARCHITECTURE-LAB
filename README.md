@@ -20,6 +20,13 @@
  - COA [Chapter - 4](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/THE%20WALL/COA_Chapter-4.pdf)
  - COA [Chapter - 5](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/THE%20WALL/COA_Chapter-5.pdf)
 
+#Assignments
+ - COA [Assignment - 1](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Assignments/COA_Assignment-1.pdf)
+ - COA [Assignment - 2]()
+ - COA [Assignment - 3](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Assignments/COA_Assignment-3.pdf)
+ - COA [Assignment - 4](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Assignments/COA_Assignment-4.pdf)
+ - COA [Assignment - 5](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Assignments/COA_Assignment-5.pdf)
+
 ## Processor Architecture Lab
  - PAL [Experiments](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/PRACTICAL%20LAB.pdf)
 
