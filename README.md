@@ -9,7 +9,7 @@
  ---
  
  ## My Preparation
- - [Sem-IV Syallbus](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/My%20Preparation/Syllabus.png)
+ - [Sem-IV Syllabus](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/My%20Preparation/Syllabus.png)
  - [Sem-IV Modules](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/My%20Preparation/Modules.png)
  - [Blueprint](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Blueprint%20(COA).png)
 
