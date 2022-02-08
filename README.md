@@ -1,5 +1,5 @@
 # COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB
- COA & PAL [SEMESTER IV]
+ CSC403: COA & CSL403: PAL [SEMESTER IV]
  
  ---
  
@@ -35,3 +35,5 @@
 
 # Submission Completion Report
 - COA/PAL [Submission Completion Report](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Submission%20Completion%20Report%20COA_PAL%20(Amey%20B-50).pdf) 
+
+
