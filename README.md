@@ -8,19 +8,20 @@
  
  ---
  
- ## My Preparation
+## My Preparation
  - [Sem-IV Syllabus](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/My%20Preparation/Syllabus.png)
  - [Sem-IV Modules](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/My%20Preparation/Modules.png)
  - [Blueprint](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Blueprint%20(COA).png)
 
 ## THE WALL
+>**[MEGA SATISH](https://github.com/msatmod) - AUTHOR**
  - COA [Chapter - 1](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/THE%20WALL/COA_Chapter-1.pdf)
  - COA [Chapter - 2](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/THE%20WALL/COA_Chapter-2.pdf)
  - COA [Chapter - 3](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/THE%20WALL/COA_Chapter-3.pdf)
  - COA [Chapter - 4](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/THE%20WALL/COA_Chapter-4.pdf)
  - COA [Chapter - 5](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/THE%20WALL/COA_Chapter-5.pdf)
 
-#Assignments
+## Assignments
  - COA [Assignment - 1](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Assignments/COA_Assignment-1.pdf)
  - COA [Assignment - 2]()
  - COA [Assignment - 3](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Assignments/COA_Assignment-3.pdf)
