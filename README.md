@@ -4,7 +4,7 @@
  ---
  
  - [X] **[Syllabus](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/SE-Comps_CBCGS_Syllabus.pdf)**
- - [x] **COA - [Reference Books](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Reference%20Books)**
+ - [X] **COA - [Reference Books](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Reference%20Books)**
  
  ---
  
@@ -15,10 +15,15 @@
 
 ## THE WALL
 >**[MEGA SATISH](https://github.com/msatmod) - AUTHOR**
+ 
  - COA [Chapter - 1](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/THE%20WALL/COA_Chapter-1.pdf)
+ 
  - COA [Chapter - 2](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/THE%20WALL/COA_Chapter-2.pdf)
+ 
  - COA [Chapter - 3](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/THE%20WALL/COA_Chapter-3.pdf)
+ 
  - COA [Chapter - 4](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/THE%20WALL/COA_Chapter-4.pdf)
+ 
  - COA [Chapter - 5](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/THE%20WALL/COA_Chapter-5.pdf)
 
 ## Assignments
