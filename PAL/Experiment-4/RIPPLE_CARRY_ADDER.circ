@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+  This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+
+  <lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="RIPPLE_CARRY_ADDER_USING_LOGISM"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="RIPPLE_CARRY_ADDER_USING_LOGISM">
+    <a name="circuit" val="RIPPLE_CARRY_ADDER_USING_LOGISM"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+  </circuit>
+  <circuit name="HALF_ADDER">
+    <a name="circuit" val="HALF_ADDER"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(230,250)" to="(340,250)"/>
+    <wire from="(150,150)" to="(230,150)"/>
+    <wire from="(410,170)" to="(520,170)"/>
+    <wire from="(410,270)" to="(520,270)"/>
+    <wire from="(190,190)" to="(190,290)"/>
+    <wire from="(190,190)" to="(330,190)"/>
+    <wire from="(230,150)" to="(230,250)"/>
+    <wire from="(190,290)" to="(340,290)"/>
+    <wire from="(150,190)" to="(190,190)"/>
+    <wire from="(230,150)" to="(330,150)"/>
+    <comp lib="0" loc="(150,150)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="6" loc="(282,364)" name="Text">
+      <a name="text" val="HALF ADDER"/>
+      <a name="font" val="SansSerif bold 20"/>
+      <a name="halign" val="left"/>
+      <a name="valign" val="bottom"/>
+    </comp>
+    <comp lib="0" loc="(520,170)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="SUM"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="1" loc="(410,270)" name="AND Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="2"/>
+      <a name="label" val="AND"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(410,170)" name="XOR Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="2"/>
+      <a name="label" val="XOR"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(150,190)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(520,270)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="CARRY"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+  </circuit>
+  <circuit name="FULL_ADDER">
+    <a name="circuit" val="FULL_ADDER"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(380,140)" to="(440,140)"/>
+    <wire from="(520,310)" to="(570,310)"/>
+    <wire from="(190,200)" to="(250,200)"/>
+    <wire from="(140,400)" to="(260,400)"/>
+    <wire from="(350,220)" to="(400,220)"/>
+    <wire from="(570,360)" to="(610,360)"/>
+    <wire from="(570,400)" to="(610,400)"/>
+    <wire from="(140,240)" to="(250,240)"/>
+    <wire from="(380,140)" to="(380,290)"/>
+    <wire from="(330,380)" to="(570,380)"/>
+    <wire from="(520,160)" to="(810,160)"/>
+    <wire from="(350,330)" to="(450,330)"/>
+    <wire from="(570,380)" to="(570,400)"/>
+    <wire from="(400,180)" to="(440,180)"/>
+    <wire from="(140,240)" to="(140,400)"/>
+    <wire from="(190,200)" to="(190,360)"/>
+    <wire from="(110,240)" to="(140,240)"/>
+    <wire from="(330,220)" to="(350,220)"/>
+    <wire from="(350,220)" to="(350,330)"/>
+    <wire from="(400,180)" to="(400,220)"/>
+    <wire from="(110,200)" to="(190,200)"/>
+    <wire from="(110,140)" to="(380,140)"/>
+    <wire from="(190,360)" to="(260,360)"/>
+    <wire from="(570,310)" to="(570,360)"/>
+    <wire from="(680,380)" to="(820,380)"/>
+    <wire from="(380,290)" to="(450,290)"/>
+    <comp lib="1" loc="(680,380)" name="OR Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="2"/>
+      <a name="label" val="OR"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(110,200)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(110,240)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="1" loc="(330,380)" name="AND Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="2"/>
+      <a name="label" val="AND"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(110,140)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Cin"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="6" loc="(405,495)" name="Text">
+      <a name="font" val="SansSerif bold 20"/>
+    </comp>
+    <comp lib="1" loc="(330,220)" name="XOR Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="2"/>
+      <a name="label" val="XOR"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(810,160)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="SUM"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(820,380)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Cout"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="6" loc="(392,469)" name="Text">
+      <a name="text" val="FULL ADDER"/>
+      <a name="font" val="SansSerif bold 20"/>
+    </comp>
+    <comp lib="1" loc="(520,310)" name="AND Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="2"/>
+      <a name="label" val="AND"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(520,160)" name="XOR Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="2"/>
+      <a name="label" val="XOR"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+  </circuit>
+  <circuit name="RIPPLE_CARRY_ADDER">
+    <a name="circuit" val="RIPPLE_CARRY_ADDER"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(390,160)" to="(450,160)"/>
+    <wire from="(340,220)" to="(340,350)"/>
+    <wire from="(210,320)" to="(270,320)"/>
+    <wire from="(210,140)" to="(390,140)"/>
+    <wire from="(340,350)" to="(450,350)"/>
+    <wire from="(350,290)" to="(450,290)"/>
+    <wire from="(360,200)" to="(360,230)"/>
+    <wire from="(480,170)" to="(520,170)"/>
+    <wire from="(480,230)" to="(520,230)"/>
+    <wire from="(480,290)" to="(520,290)"/>
+    <wire from="(310,180)" to="(310,280)"/>
+    <wire from="(180,180)" to="(210,180)"/>
+    <wire from="(180,280)" to="(210,280)"/>
+    <wire from="(360,170)" to="(450,170)"/>
+    <wire from="(360,230)" to="(450,230)"/>
+    <wire from="(420,220)" to="(450,220)"/>
+    <wire from="(420,280)" to="(450,280)"/>
+    <wire from="(420,340)" to="(450,340)"/>
+    <wire from="(290,300)" to="(450,300)"/>
+    <wire from="(180,230)" to="(270,230)"/>
+    <wire from="(290,290)" to="(320,290)"/>
+    <wire from="(290,310)" to="(320,310)"/>
+    <wire from="(290,280)" to="(310,280)"/>
+    <wire from="(310,180)" to="(450,180)"/>
+    <wire from="(320,240)" to="(320,290)"/>
+    <wire from="(480,340)" to="(560,340)"/>
+    <wire from="(320,240)" to="(450,240)"/>
+    <wire from="(320,360)" to="(450,360)"/>
+    <wire from="(290,200)" to="(360,200)"/>
+    <wire from="(560,360)" to="(570,360)"/>
+    <wire from="(290,210)" to="(350,210)"/>
+    <wire from="(560,330)" to="(560,340)"/>
+    <wire from="(560,350)" to="(560,360)"/>
+    <wire from="(290,220)" to="(340,220)"/>
+    <wire from="(390,140)" to="(390,160)"/>
+    <wire from="(360,170)" to="(360,190)"/>
+    <wire from="(520,170)" to="(520,190)"/>
+    <wire from="(520,230)" to="(520,250)"/>
+    <wire from="(350,210)" to="(350,290)"/>
+    <wire from="(420,190)" to="(420,220)"/>
+    <wire from="(420,250)" to="(420,280)"/>
+    <wire from="(420,310)" to="(420,340)"/>
+    <wire from="(420,190)" to="(520,190)"/>
+    <wire from="(420,310)" to="(520,310)"/>
+    <wire from="(420,250)" to="(520,250)"/>
+    <wire from="(520,290)" to="(520,310)"/>
+    <wire from="(210,140)" to="(210,180)"/>
+    <wire from="(210,280)" to="(210,320)"/>
+    <wire from="(320,310)" to="(320,360)"/>
+    <wire from="(480,350)" to="(560,350)"/>
+    <wire from="(480,160)" to="(550,160)"/>
+    <wire from="(480,220)" to="(550,220)"/>
+    <wire from="(480,280)" to="(550,280)"/>
+    <wire from="(290,190)" to="(360,190)"/>
+    <wire from="(560,330)" to="(570,330)"/>
+    <comp loc="(480,160)" name="FULL_ADDER">
+      <a name="label" val="FA0"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(180,230)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="6" loc="(493,181)" name="Text">
+      <a name="text" val="CO"/>
+      <a name="font" val="SansSerif bold 10"/>
+    </comp>
+    <comp lib="0" loc="(550,220)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="SUM1"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="6" loc="(437,335)" name="Text">
+      <a name="text" val="Cn"/>
+      <a name="font" val="SansSerif bold 10"/>
+    </comp>
+    <comp lib="6" loc="(490,244)" name="Text">
+      <a name="text" val="C1"/>
+      <a name="font" val="SansSerif bold 10"/>
+    </comp>
+    <comp lib="6" loc="(491,304)" name="Text">
+      <a name="text" val="C2"/>
+      <a name="font" val="SansSerif bold 10"/>
+    </comp>
+    <comp lib="0" loc="(180,180)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Cin"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(180,280)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp loc="(480,220)" name="FULL_ADDER">
+      <a name="label" val="FA1"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(550,160)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="SUM0"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="6" loc="(436,276)" name="Text">
+      <a name="text" val="Cn"/>
+      <a name="font" val="SansSerif bold 10"/>
+    </comp>
+    <comp lib="0" loc="(570,360)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Cout"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp loc="(480,280)" name="FULL_ADDER">
+      <a name="label" val="FA2"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(270,320)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(550,280)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="SUM2"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(570,330)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="SUM3"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="6" loc="(361,419)" name="Text">
+      <a name="font" val="SansSerif bold 20"/>
+    </comp>
+    <comp lib="6" loc="(382,405)" name="Text">
+      <a name="text" val="RIPPLE CARRY ADDER"/>
+      <a name="font" val="SansSerif bold 20"/>
+      <a name="valign" val="top"/>
+    </comp>
+    <comp lib="6" loc="(437,217)" name="Text">
+      <a name="text" val="Cn"/>
+      <a name="font" val="SansSerif bold 10"/>
+    </comp>
+    <comp loc="(480,340)" name="FULL_ADDER">
+      <a name="label" val="FA3"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(270,230)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+  </circuit>
+</project>
