@@ -178,18 +178,18 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 
 ### Laboratory Experiments
 
-| Experiment | Topic | Type |
-|:---|:---|:-:|
-| **Experiment 1** | Introduction to Processor Architecture | 📄 Theory |
-| **Experiment 2** | Booth's Multiplication Algorithm | 💻 C Code |
-| **Experiment 3** | Restoring Division Algorithm | 💻 C Code |
-| **Experiment 4** | Ripple Carry Adder Design | 🔌 Logisim |
-| **Experiment 5** | ALU Design | 🔌 Logisim |
-| **Experiment 6** | Shift Register Design | 🔌 Logisim |
-| **Experiment 7** | Control Unit Design | 📄 Theory |
-| **Experiment 8** | Memory Organization | 📄 Theory |
-| **Experiment 9** | Cache Memory Design | 📄 Theory |
-| **Experiment 10** | Pipelining Concepts | 📄 Theory |
+| Experiment | Topic | Type | View |
+|:---|:---|:-:|:-:|
+| **Experiment 1** | Introduction to Processor Architecture | 📄 Theory | [📄](Processor%20Architecture%20Lab/Experiment-1/AMEY_B-50_PAL_EXPERIMENT-1.pdf) |
+| **Experiment 2** | Booth's Multiplication Algorithm | 💻 C Code | [📂](Processor%20Architecture%20Lab/Experiment-2/) |
+| **Experiment 3** | Restoring Division Algorithm | 💻 C Code | [📂](Processor%20Architecture%20Lab/Experiment-3/) |
+| **Experiment 4** | Ripple Carry Adder Design | 🔌 Logisim | [📂](Processor%20Architecture%20Lab/Experiment-4/) |
+| **Experiment 5** | ALU Design | 🔌 Logisim | [📂](Processor%20Architecture%20Lab/Experiment-5/) |
+| **Experiment 6** | Shift Register Design | 🔌 Logisim | [📂](Processor%20Architecture%20Lab/Experiment-6/) |
+| **Experiment 7** | Control Unit Design | 📄 Theory | [📄](Processor%20Architecture%20Lab/Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) |
+| **Experiment 8** | Memory Organization | 📄 Theory | [📄](Processor%20Architecture%20Lab/Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) |
+| **Experiment 9** | Cache Memory Design | 📄 Theory | [📄](Processor%20Architecture%20Lab/Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) |
+| **Experiment 10** | Pipelining Concepts | 📄 Theory | [📄](Processor%20Architecture%20Lab/Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) |
 
 ### Program Details
 
