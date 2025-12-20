@@ -102,7 +102,7 @@ This collection includes **17 comprehensive reference materials** covering all m
 </td>
 <td align="center">
 <a href="https://github.com/msatmod">
-<img src="https://github.com/Amey-Thakur/ANALYSIS-OF-ALGORITHM-AND-ANALYSIS-OF-ALGORITHM-LAB/blob/main/THE%20WALL/Mega_Satish.png?raw=true" alt="Mega Satish" width="150" height="150"/><br/>
+<img src="THE%20WALL/Mega_Satish.png" alt="Mega Satish" width="150" height="150"/><br/>
 <b>Mega Satish</b>
 </a>
 </td>
