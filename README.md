@@ -67,7 +67,7 @@ This collection includes **17 comprehensive reference materials** covering all m
 | # | Resource | Focus Area |
 |:-:|:---|:---|
 | 1 | [COA Techmax](Reference%20Books/COA%20Techmax.pdf) | Complete syllabus coverage |
-| 2 | [COA Notes](Reference%20Books/COA_Notes.pdf) | Comprehensive lecture notes (by Amey Thakur) |
+| 2 | [COA Notes](Reference%20Books/COA_Notes.pdf) | Comprehensive lecture notes by Amey Thakur |
 | 3 | [Cache Coherence Interleaved](Reference%20Books/Cache%20Coherence%20Interleaved.pdf) | Cache coherence and memory interleaving |
 | 4 | [Cache Mapping](Reference%20Books/Cache%20Mapping.pdf) | Direct, associative, and set-associative mapping |
 | 5 | [Direct Mapping Figure Modified](Reference%20Books/Direct%20Mapping%20Figure%20Modified.pdf) | Visual guide to direct mapping |
