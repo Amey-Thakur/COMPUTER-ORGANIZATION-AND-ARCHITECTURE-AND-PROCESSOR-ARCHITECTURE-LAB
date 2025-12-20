@@ -46,27 +46,27 @@
 
 ## Processor Architecture Lab
  
- >**PAL [Experiments](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/PAL/PRACTICAL%20LAB.pdf) - JOURNAL**
+ >**PAL [Experiments](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Processor%20Architecture%20Lab/PRACTICAL%20LAB.pdf) - JOURNAL**
 
- - PAL [Experiment - 1](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/PAL/Experiment-1/AMEY_B-50_PAL_EXPERIMENT-1.pdf)
+ - PAL [Experiment - 1](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Processor%20Architecture%20Lab/Experiment-1/AMEY_B-50_PAL_EXPERIMENT-1.pdf)
  
- - PAL [Experiment - 2](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/PAL/Experiment-2)
+ - PAL [Experiment - 2](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-2)
  
- - PAL [Experiment - 3](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/PAL/Experiment-3)
+ - PAL [Experiment - 3](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-3)
  
- - PAL [Experiment - 4](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/PAL/Experiment-4)
+ - PAL [Experiment - 4](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-4)
  
- - PAL [Experiment - 5](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/PAL/Experiment-5)
+ - PAL [Experiment - 5](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-5)
  
- - PAL [Experiment - 6](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/PAL/Experiment-6)
+ - PAL [Experiment - 6](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-6)
  
- - PAL [Experiment - 7](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/PAL/Experiment-7)
+ - PAL [Experiment - 7](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-7)
  
- - PAL [Experiment - 8](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/PAL/Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf)
+ - PAL [Experiment - 8](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Processor%20Architecture%20Lab/Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf)
  
- - PAL [Experiment - 9](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/PAL/Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf)
+ - PAL [Experiment - 9](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Processor%20Architecture%20Lab/Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf)
  
- - PAL [Experiment - 10](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/PAL/Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) 
+ - PAL [Experiment - 10](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/blob/main/Processor%20Architecture%20Lab/Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) 
 
 
 ## Test
