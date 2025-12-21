@@ -156,18 +156,14 @@ Study materials and planning resources for effective exam preparation:
 
 Academic assignments for comprehensive learning and practice:
 
-<div align="center">
+| # | Assignment | Description | Link |
+|:-:|:---|:---|:---:|
+| 1 | **Assignment 1** | Fundamental concepts and register organization | [� View](Assignments/COA_Assignment-1.pdf) |
+| 2 | **Assignment 3** | Control unit and microprogramming | [� View](Assignments/COA_Assignment-3.pdf) |
+| 3 | **Assignment 4** | Memory organization and cache mapping | [📄 View](Assignments/COA_Assignment-4.pdf) |
+| 4 | **Assignment 5** | I/O organization and advanced topics | [📄 View](Assignments/COA_Assignment-5.pdf) |
 
-**[📂 Browse All Assignments](Assignments/)**
-
-</div>
-
-| Resource | Description |
-|:---|:---|
-| 📝 [Assignment 1](Assignments/COA_Assignment-1.pdf) | Fundamental concepts and register organization |
-| 📝 [Assignment 3](Assignments/COA_Assignment-3.pdf) | Control unit and microprogramming |
-| 📝 [Assignment 4](Assignments/COA_Assignment-4.pdf) | Memory organization and cache mapping |
-| 📝 [Assignment 5](Assignments/COA_Assignment-5.pdf) | I/O organization and advanced topics |
+**Topics Covered**: Computer Organization (Register organization, ISA, Addressing modes) · Control Unit Design (Hardwired, Microprogrammed) · Arithmetic Operations (Booth's, Restoring Division) · Memory Organization (Cache mapping) · I/O Organization
 
 ---
 
