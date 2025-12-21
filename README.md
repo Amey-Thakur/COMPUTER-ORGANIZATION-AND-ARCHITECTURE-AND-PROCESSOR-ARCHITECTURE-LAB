@@ -146,7 +146,6 @@ Study materials and planning resources for effective exam preparation:
 | 📝 [Syllabus Breakdown](My%20Preparation/Syllabus.png) | Detailed module-wise syllabus notes |
 | 📊 [Module Planning](My%20Preparation/Modules.png) | Topic organization and study schedule |
 | 🎯 [Examination Blueprint](Blueprint%20(COA).png) | Question paper pattern and marking scheme |
-| 📄 [COA Test](COA_Test_B-50.pdf) | Practice test paper |
 | 🏆 [Achievement Certificate](Certificate.jpg) | Recognition in computer architecture excellence |
 | 📋 [Submission Completion Report](Submission%20Completion%20Report%20COA_PAL%20(Amey%20B-50).pdf) | Coursework completion documentation |
 
@@ -180,6 +179,16 @@ Chapter-wise quizzes for continuous assessment:
 | 4 | **Quiz 4** | Chapter 4: Memory Organization | 11/11 |
 | 5 | **Quiz 5** | Chapter 5: I/O Organization | 10/10 |
 | 6 | **Quiz 6** | Chapter 6: Advanced Topics | 10/10 |
+
+---
+
+### Practice Test
+
+Mid-semester practice assessment:
+
+| Test | Date | Time | Class | Link |
+|:---|:---:|:---:|:---:|:---:|
+| **Practice Test COA** | April 5, 2020 | 10:00 AM - 11:00 AM | SE B-50 | [📄 View](COA_Test_B-50.pdf) |
 
 ---
 
