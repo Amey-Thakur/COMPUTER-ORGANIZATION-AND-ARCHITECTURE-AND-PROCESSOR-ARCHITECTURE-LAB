@@ -168,6 +168,21 @@ Academic assignments for comprehensive learning and practice:
 
 ---
 
+### Quizzes
+
+Chapter-wise quizzes for continuous assessment:
+
+| # | Quiz | Chapter | Marks |
+|:-:|:---|:---|:---:|
+| 1 | **Quiz 1** | Chapter 1: Introduction to Computer Organization | 10/10 |
+| 2 | **Quiz 2** | Chapter 2: Register Organization and ISA | 10/10 |
+| 3 | **Quiz 3** | Chapter 3: Control Unit Design | 9/10 |
+| 4 | **Quiz 4** | Chapter 4: Memory Organization | 11/11 |
+| 5 | **Quiz 5** | Chapter 5: I/O Organization | 10/10 |
+| 6 | **Quiz 6** | Chapter 6: Advanced Topics | 10/10 |
+
+---
+
 <!-- =========================================================================================
                                      LABORATORY SECTION
      ========================================================================================= -->
