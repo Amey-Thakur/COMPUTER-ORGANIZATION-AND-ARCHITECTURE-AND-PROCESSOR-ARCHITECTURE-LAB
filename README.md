@@ -184,6 +184,9 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 
 </div>
 
+> [!TIP]
+> **Circuit Visualization**: When working with Logisim circuits, always trace signal propagation step-by-step and verify truth tables for each component. For algorithms like Booth's multiplication and restoring division, draw timing diagrams showing register states at each clock cycle. Understanding the hardware-software relationship is key to mastering processor architecture.
+
 ### Laboratory Experiments
 
 | Experiment | Topic | Type | View |
