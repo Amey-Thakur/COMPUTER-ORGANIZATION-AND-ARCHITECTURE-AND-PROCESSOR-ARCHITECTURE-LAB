@@ -147,7 +147,6 @@ Study materials and planning resources for effective exam preparation:
 | 📊 [Module Planning](My%20Preparation/Modules.png) | Topic organization and study schedule |
 | 🎯 [Examination Blueprint](Blueprint%20(COA).png) | Question paper pattern and marking scheme |
 | 🏆 [Achievement Certificate](Certificate.jpg) | Recognition in computer architecture excellence |
-| 📋 [Submission Completion Report](Submission%20Completion%20Report%20COA_PAL%20(Amey%20B-50).pdf) | Coursework completion documentation |
 
 ---
 
@@ -285,6 +284,16 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 |:---|:---|
 | 🧪 [Laboratory Journal](Processor%20Architecture%20Lab/PRACTICAL%20LAB.pdf) | Complete record of experiments with code, outputs, and analysis |
 | 📖 [Lab README](Processor%20Architecture%20Lab/) | Detailed navigation guide with program descriptions |
+
+---
+
+### Submission Completion Report
+
+Course completion documentation with exit survey:
+
+| Document | Description | Link |
+|:---|:---|:---:|
+| **Submission Completion Report** | Final coursework and lab submission report with exit survey | [📋 View](Submission%20Completion%20Report%20COA_PAL%20(Amey%20B-50).pdf) |
 
 ---
 
