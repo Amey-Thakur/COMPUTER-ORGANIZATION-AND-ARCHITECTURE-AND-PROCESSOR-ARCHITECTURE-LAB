@@ -168,15 +168,15 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
   <!-- Footer Navigation -->
   **[⬆ Back to Top](#processor-architecture-lab)**
 
+  **[📄 Experiment 1](#-experiment-1-introduction-to-processor-architecture)** &nbsp;·&nbsp; **[✖️ Experiment 2](#%EF%B8%8F-experiment-2-booths-multiplication-algorithm)** &nbsp;·&nbsp; **[➗ Experiment 3](#-experiment-3-restoring-division-algorithm)** &nbsp;·&nbsp; **[➕ Experiment 4](#-experiment-4-ripple-carry-adder-design)** &nbsp;·&nbsp; **[⚡ Experiment 5](#-experiment-5-alu-design)** &nbsp;·&nbsp; **[↔️ Experiment 6](#%EF%B8%8F-experiment-6-shift-register-design)** &nbsp;·&nbsp; **[🎛️ Experiments 7-10](#%EF%B8%8F-experiments-7-10-advanced-topics)** &nbsp;·&nbsp; **[🚀 How to Use](#-how-to-use)**
+
+  <br>
+
   **[🏠 Back to Main Repository](../)**
 
-</div>
+  ---
 
----
-
-<div align="center">
-
-  ### [Computer Organization and Architecture and Processor Architecture Lab](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB)
+  ### 🖥️ [Computer Organization and Architecture and Processor Architecture Lab](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB)
 
   **CSC403 & CSL403 · Semester IV · Computer Engineering**
 
