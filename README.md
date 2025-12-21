@@ -258,7 +258,8 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 
 | Resource | Description |
 |:---|:---|
-| 🧪 [Laboratory Journal](Processor%20Architecture%20Lab/PRACTICAL%20LAB.pdf) | Complete record of experiments with theory, diagrams, and analysis |
+| 🧪 [Laboratory Journal](Processor%20Architecture%20Lab/PRACTICAL%20LAB.pdf) | Complete record of experiments with code, outputs, and analysis |
+| 📁 [Lab README](Processor%20Architecture%20Lab/) | Detailed navigation guide with program descriptions |
 
 ---
 
