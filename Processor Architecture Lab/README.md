@@ -176,7 +176,7 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
 
   ---
 
-  ### 🖥️ [Computer Organization and Architecture and Processor Architecture Lab](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB)
+  ### [Computer Organization and Architecture and Processor Architecture Lab](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB)
 
   **CSC403 & CSL403 · Semester IV · Computer Engineering**
 
