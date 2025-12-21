@@ -205,7 +205,7 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
   [![Language](https://img.shields.io/badge/Language-C%20%7C%20Logisim-blueviolet.svg)](Processor%20Architecture%20Lab/)
   [![Lab Manual](https://img.shields.io/badge/Lab%20Manual-Available-brightgreen.svg)](Processor%20Architecture%20Lab/PRACTICAL%20LAB.pdf)
 
-  **[📂 Browse All Experiments](Processor%20Architecture%20Lab/)**
+
 
 </div>
 
