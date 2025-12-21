@@ -158,8 +158,8 @@ Academic assignments for comprehensive learning and practice:
 
 | # | Assignment | Description | Link |
 |:-:|:---|:---|:---:|
-| 1 | **Assignment 1** | Fundamental concepts and register organization | [� View](Assignments/COA_Assignment-1.pdf) |
-| 2 | **Assignment 3** | Control unit and microprogramming | [� View](Assignments/COA_Assignment-3.pdf) |
+| 1 | **Assignment 1** | Fundamental concepts and register organization | [📄 View](Assignments/COA_Assignment-1.pdf) |
+| 2 | **Assignment 3** | Control unit and microprogramming | [📄 View](Assignments/COA_Assignment-3.pdf) |
 | 3 | **Assignment 4** | Memory organization and cache mapping | [📄 View](Assignments/COA_Assignment-4.pdf) |
 | 4 | **Assignment 5** | I/O organization and advanced topics | [📄 View](Assignments/COA_Assignment-5.pdf) |
 
