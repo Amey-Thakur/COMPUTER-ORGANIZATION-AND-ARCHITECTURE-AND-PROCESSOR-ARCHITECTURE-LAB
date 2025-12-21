@@ -159,9 +159,10 @@ Academic assignments for comprehensive learning and practice:
 | # | Assignment | Description | Date | Marks | Link |
 |:-:|:---|:---|:---:|:---:|:---:|
 | 1 | **Assignment 1** | Fundamental concepts and register organization | March 8, 2020 | 9/10 | [📄 View](Assignments/COA_Assignment-1.pdf) |
-| 2 | **Assignment 3** | Control unit and microprogramming | March 21, 2020 | 9/10 | [📄 View](Assignments/COA_Assignment-3.pdf) |
-| 3 | **Assignment 4** | Memory organization and cache mapping | April 4, 2020 | 9/10 | [📄 View](Assignments/COA_Assignment-4.pdf) |
-| 4 | **Assignment 5** | I/O organization and advanced topics | April 18, 2020 | 9/10 | [📄 View](Assignments/COA_Assignment-5.pdf) |
+| 2 | **Assignment 2** | Arithmetic operations and control design | March 15, 2020 | 9/10 | [📄 View](Assignments/COA_Assignment-2.pdf) |
+| 3 | **Assignment 3** | Control unit and microprogramming | March 21, 2020 | 9/10 | [📄 View](Assignments/COA_Assignment-3.pdf) |
+| 4 | **Assignment 4** | Memory organization and cache mapping | April 4, 2020 | 9/10 | [📄 View](Assignments/COA_Assignment-4.pdf) |
+| 5 | **Assignment 5** | I/O organization and advanced topics | April 18, 2020 | 9/10 | [📄 View](Assignments/COA_Assignment-5.pdf) |
 
 **Topics Covered**: Computer Organization (Register organization, ISA, Addressing modes) · Control Unit Design (Hardwired, Microprogrammed) · Arithmetic Operations (Booth's, Restoring Division) · Memory Organization (Cache mapping) · I/O Organization
 
