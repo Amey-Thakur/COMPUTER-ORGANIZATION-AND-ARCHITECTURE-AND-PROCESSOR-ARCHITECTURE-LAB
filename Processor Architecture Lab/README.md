@@ -1,29 +1,43 @@
-<!-- HEADER -->
+<!-- =========================================================================================
+                                     HEADER SECTION
+     ========================================================================================= -->
 <div align="center">
 
+  <!-- Title -->
   # Processor Architecture Lab
 
+  <!-- Subtitle -->
   ### CSL403 · Semester IV · Computer Engineering
 
+  <!-- Badges -->
   [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
-  [![Experiments](https://img.shields.io/badge/Experiments-10-green.svg)](#quick-navigation)
-  [![Language](https://img.shields.io/badge/Language-C%20%7C%20Logisim-orange.svg)](.)
+  [![Experiments](https://img.shields.io/badge/Experiments-10-yellowgreen.svg)](#quick-navigation)
+  [![Language](https://img.shields.io/badge/Language-C%20%7C%20Logisim-blueviolet.svg)](.)
+  [![Lab Manual](https://img.shields.io/badge/Lab%20Manual-Available-brightgreen.svg)](PRACTICAL%20LAB.pdf)
 
+  <!-- Short Description -->
   **A comprehensive collection of 10 experiments covering processor architecture, arithmetic algorithms, digital circuit design, and memory organization with detailed documentation and industry-standard practices.**
 
-</div>
+  ---
 
----
-
-<div align="center">
-
-  [📄 Experiment 1](#-experiment-1-introduction-to-processor-architecture) &nbsp;·&nbsp; [✖️ Experiment 2](#%EF%B8%8F-experiment-2-booths-multiplication-algorithm) &nbsp;·&nbsp; [➗ Experiment 3](#-experiment-3-restoring-division-algorithm) &nbsp;·&nbsp; [➕ Experiment 4](#-experiment-4-ripple-carry-adder-design) &nbsp;·&nbsp; [⚡ Experiment 5](#-experiment-5-alu-design) &nbsp;·&nbsp; [↔️ Experiment 6](#%EF%B8%8F-experiment-6-shift-register-design) &nbsp;·&nbsp; [🎛️ Experiments 7-10](#%EF%B8%8F-experiments-7-10-advanced-topics)
+  <!-- Navigation Links -->
+  **[📄 Experiment 1](#-experiment-1-introduction-to-processor-architecture)** &nbsp;·&nbsp; **[✖️ Experiment 2](#%EF%B8%8F-experiment-2-booths-multiplication-algorithm)** &nbsp;·&nbsp; **[➗ Experiment 3](#-experiment-3-restoring-division-algorithm)** &nbsp;·&nbsp; **[➕ Experiment 4](#-experiment-4-ripple-carry-adder-design)** &nbsp;·&nbsp; **[⚡ Experiment 5](#-experiment-5-alu-design)** &nbsp;·&nbsp; **[↔️ Experiment 6](#%EF%B8%8F-experiment-6-shift-register-design)** &nbsp;·&nbsp; **[🎛️ Experiments 7-10](#%EF%B8%8F-experiments-7-10-advanced-topics)** &nbsp;·&nbsp; **[🚀 How to Use](#-how-to-use)**
 
 </div>
 
 ---
 
-<!-- EXPERIMENT 1 -->
+> [!TIP]
+> **Circuit Visualization**: When working with Logisim circuits, always trace signal propagation step-by-step and verify truth tables for each component. For algorithms like Booth's multiplication and restoring division, draw timing diagrams showing register states at each clock cycle. Understanding the hardware-software relationship is key to mastering processor architecture.
+
+> [!WARNING]
+> **Hardware Testing**: Always test your Logisim circuits with multiple test cases including edge cases (all 0s, all 1s, maximum values). Document the truth tables and verify outputs match expected results before final submission.
+
+---
+
+<!-- =========================================================================================
+                                     EXPERIMENT 1
+     ========================================================================================= -->
 ## 📄 Experiment 1: Introduction to Processor Architecture
 
 | # | Resource | Description |
@@ -32,7 +46,9 @@
 
 ---
 
-<!-- EXPERIMENT 2 -->
+<!-- =========================================================================================
+                                     EXPERIMENT 2
+     ========================================================================================= -->
 ## ✖️ Experiment 2: Booth's Multiplication Algorithm
 
 | # | Program | Algorithm | Description |
@@ -43,7 +59,9 @@
 
 ---
 
-<!-- EXPERIMENT 3 -->
+<!-- =========================================================================================
+                                     EXPERIMENT 3
+     ========================================================================================= -->
 ## ➗ Experiment 3: Restoring Division Algorithm
 
 | # | Program | Algorithm | Description |
@@ -52,7 +70,9 @@
 
 ---
 
-<!-- EXPERIMENT 4 -->
+<!-- =========================================================================================
+                                     EXPERIMENT 4
+     ========================================================================================= -->
 ## ➕ Experiment 4: Ripple Carry Adder Design
 
 | # | Circuit | Description |
@@ -63,7 +83,9 @@
 
 ---
 
-<!-- EXPERIMENT 5 -->
+<!-- =========================================================================================
+                                     EXPERIMENT 5
+     ========================================================================================= -->
 ## ⚡ Experiment 5: ALU Design
 
 | # | Circuit | Description |
@@ -73,7 +95,9 @@
 
 ---
 
-<!-- EXPERIMENT 6 -->
+<!-- =========================================================================================
+                                     EXPERIMENT 6
+     ========================================================================================= -->
 ## ↔️ Experiment 6: Shift Register Design
 
 | # | Circuit | Description |
@@ -84,7 +108,9 @@
 
 ---
 
-<!-- EXPERIMENTS 7-10 -->
+<!-- =========================================================================================
+                                     EXPERIMENTS 7-10
+     ========================================================================================= -->
 ## 🎛️ Experiments 7-10: Advanced Topics
 
 | # | Experiment | Topic | Resource |
@@ -96,7 +122,9 @@
 
 ---
 
-<!-- HOW TO USE -->
+<!-- =========================================================================================
+                                     HOW TO USE SECTION
+     ========================================================================================= -->
 ## 🚀 How to Use
 
 ### C Programs (Experiments 2-3)
@@ -121,7 +149,9 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
 
 ---
 
-<!-- LAB MANUAL -->
+<!-- =========================================================================================
+                                     LAB MANUAL SECTION
+     ========================================================================================= -->
 ## 📖 Lab Manual
 
 | Resource | Description |
@@ -130,10 +160,15 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
 
 ---
 
-<!-- FOOTER -->
+<!-- =========================================================================================
+                                     FOOTER SECTION
+     ========================================================================================= -->
 <div align="center">
 
-  **[⬆ Back to Top](#processor-architecture-lab)** &nbsp;·&nbsp; **[🏠 Back to Main Repository](../)** &nbsp;·&nbsp; **[📄 Assignments](../Assignments/)**
+  <!-- Footer Navigation -->
+  **[⬆ Back to Top](#processor-architecture-lab)**
+
+  **[🏠 Back to Main Repository](../)**
 
 </div>
 
