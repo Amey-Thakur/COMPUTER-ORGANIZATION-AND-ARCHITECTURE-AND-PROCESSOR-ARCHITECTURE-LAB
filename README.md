@@ -143,6 +143,7 @@ Study materials and planning resources for effective exam preparation:
 
 | Resource | Description |
 |:---|:---|
+| 📝 [COA Notes](Reference%20Books/COA_Notes.pdf) | Comprehensive lecture notes by Amey Thakur |
 | 📝 [Syllabus Breakdown](My%20Preparation/Syllabus.png) | Detailed module-wise syllabus notes |
 | 📊 [Module Planning](My%20Preparation/Modules.png) | Topic organization and study schedule |
 | 🎯 [Examination Blueprint](Blueprint%20(COA).png) | Question paper pattern and marking scheme |
