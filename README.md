@@ -184,7 +184,7 @@ Chapter-wise quizzes for continuous assessment:
 
 ### Practice Test
 
-Mid-semester practice assessment:
+Practice assessment details:
 
 | Test | Date | Time | Class | Link |
 |:---|:---:|:---:|:---:|:---:|
