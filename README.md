@@ -214,7 +214,7 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 
 ### Laboratory Experiments
 
-| Experiment | Topic | Type | Marks | View |
+| Experiment | Topic | Type | Marks | Report |
 |:-:|:---|:-:|:-:|:-:|
 | **1** | Introduction to Processor Architecture | Theory | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-1/AMEY_B-50_PAL_EXPERIMENT-1.pdf) |
 | **2** | Booth's Multiplication Algorithm | C Code | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-2/) |
