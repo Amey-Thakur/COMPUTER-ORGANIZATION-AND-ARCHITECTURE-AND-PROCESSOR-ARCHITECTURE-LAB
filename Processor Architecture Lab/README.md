@@ -21,7 +21,7 @@
   ---
 
   <!-- Navigation Links -->
-  **[How to Use](#how-to-use)** &nbsp;·&nbsp; **[Lab Manual](#lab-manual)** &nbsp;·&nbsp; **[Experiment 1](#experiment-1-introduction-to-processor-architecture)** &nbsp;·&nbsp; **[Experiment 2](#experiment-2-booths-multiplication-algorithm)** &nbsp;·&nbsp; **[Experiment 3](#experiment-3-restoring-division-algorithm)** &nbsp;·&nbsp; **[Experiment 4](#experiment-4-ripple-carry-adder-design)** &nbsp;·&nbsp; **[Experiment 5](#experiment-5-alu-design)** &nbsp;·&nbsp; **[Experiment 6](#experiment-6-shift-register-design)** &nbsp;·&nbsp; **[Experiments 7-10](#experiments-7-10-advanced-topics)**
+  **[How to Use](#how-to-use)** &nbsp;·&nbsp; **[Learning Path](#learning-path)** &nbsp;·&nbsp; **[Lab Manual](#lab-manual)** &nbsp;·&nbsp; **[Experiment 1](#experiment-1-introduction-to-processor-architecture)** &nbsp;·&nbsp; **[Experiment 2](#experiment-2-booths-multiplication-algorithm)** &nbsp;·&nbsp; **[Experiment 3](#experiment-3-restoring-division-algorithm)** &nbsp;·&nbsp; **[Experiment 4](#experiment-4-ripple-carry-adder-design)** &nbsp;·&nbsp; **[Experiment 5](#experiment-5-alu-design)** &nbsp;·&nbsp; **[Experiment 6](#experiment-6-shift-register-design)** &nbsp;·&nbsp; **[Experiments 7-10](#experiments-7-10-advanced-topics)**
 
 </div>
 
@@ -59,6 +59,29 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
 1. **Download** [Logisim](http://www.cburch.com/logisim/) or [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution)
 2. **Open** the `.circ` file in Logisim
 3. **Simulate** the circuit using the built-in tools
+
+---
+
+<!-- =========================================================================================
+                                     LEARNING PATH SECTION
+     ========================================================================================= -->
+## Learning Path
+
+**Beginner Level:**
+- Start with Experiment 1 (Introduction to Processor Architecture)
+- Understand basic processor concepts and architecture fundamentals
+
+**Intermediate Level:**
+- Explore Experiments 2-3 (Arithmetic Algorithms)
+- Learn Booth's multiplication and restoring division algorithms
+- Study Experiments 4-6 (Digital Circuit Design)
+- Design and simulate adders, ALU, and shift registers in Logisim
+
+**Advanced Level:**
+- Study Experiments 7-8 (Control Unit and Memory)
+- Understand control unit design and memory organization
+- Analyze Experiments 9-10 (Cache and Pipelining)
+- Master cache memory design and pipelining concepts
 
 ---
 
@@ -169,7 +192,7 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
   <!-- Footer Navigation -->
   **[↑ Back to Top](#processor-architecture-lab)**
 
-  **[How to Use](#how-to-use)** &nbsp;·&nbsp; **[Lab Manual](#lab-manual)** &nbsp;·&nbsp; **[Experiment 1](#experiment-1-introduction-to-processor-architecture)** &nbsp;·&nbsp; **[Experiment 2](#experiment-2-booths-multiplication-algorithm)** &nbsp;·&nbsp; **[Experiment 3](#experiment-3-restoring-division-algorithm)** &nbsp;·&nbsp; **[Experiment 4](#experiment-4-ripple-carry-adder-design)** &nbsp;·&nbsp; **[Experiment 5](#experiment-5-alu-design)** &nbsp;·&nbsp; **[Experiment 6](#experiment-6-shift-register-design)** &nbsp;·&nbsp; **[Experiments 7-10](#experiments-7-10-advanced-topics)**
+  **[How to Use](#how-to-use)** &nbsp;·&nbsp; **[Learning Path](#learning-path)** &nbsp;·&nbsp; **[Lab Manual](#lab-manual)** &nbsp;·&nbsp; **[Experiment 1](#experiment-1-introduction-to-processor-architecture)** &nbsp;·&nbsp; **[Experiment 2](#experiment-2-booths-multiplication-algorithm)** &nbsp;·&nbsp; **[Experiment 3](#experiment-3-restoring-division-algorithm)** &nbsp;·&nbsp; **[Experiment 4](#experiment-4-ripple-carry-adder-design)** &nbsp;·&nbsp; **[Experiment 5](#experiment-5-alu-design)** &nbsp;·&nbsp; **[Experiment 6](#experiment-6-shift-register-design)** &nbsp;·&nbsp; **[Experiments 7-10](#experiments-7-10-advanced-topics)**
 
   <br>
 
