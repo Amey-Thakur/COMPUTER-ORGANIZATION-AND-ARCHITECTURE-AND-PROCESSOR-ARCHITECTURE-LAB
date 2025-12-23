@@ -292,9 +292,9 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 
 Course completion documentation with exit survey:
 
-| # | Document | Description | Link |
-|:-:|:---|:---|:---:|
-| 1 | **Submission Completion Report** | Final coursework and lab submission report with exit survey | [View](Submission%20Completion%20Report%20COA_PAL%20(Amey%20B-50).pdf) |
+| # | Document | Description |
+|:-:|:---|:---|
+| 1 | [**Submission Completion Report**](Submission%20Completion%20Report%20COA_PAL%20(Amey%20B-50).pdf) | Final coursework and lab submission report with exit survey |
 
 ---
 
