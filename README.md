@@ -18,7 +18,7 @@
 
   ---
 
-  [📖 Overview](#overview) &nbsp;·&nbsp; [📂 Contents](#repository-contents) &nbsp;·&nbsp; [📚 Reference Books](#reference-books) &nbsp;·&nbsp; [👫🏻 The Wall](#the-wall) &nbsp;·&nbsp; [✏️ Personal Preparation](#personal-preparation) &nbsp;·&nbsp; [📄 Assignments](#assignments) &nbsp;·&nbsp; [📊 Quizzes](#quizzes) &nbsp;·&nbsp; [📝 Practice Test](#practice-test) &nbsp;·&nbsp; [🧪 Laboratory](#processor-architecture-laboratory) &nbsp;·&nbsp; [✅ Submission Report](#submission-completion-report) &nbsp;·&nbsp; [📋 Syllabus](#syllabus) &nbsp;·&nbsp; [📘 Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [📜 License](#license) &nbsp;·&nbsp; [ℹ️ About](#about-this-repository) &nbsp;·&nbsp; [🙏🏻 Acknowledgments](#acknowledgments)
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [The Wall](#the-wall) &nbsp;·&nbsp; [Personal Preparation](#personal-preparation) &nbsp;·&nbsp; [Assignments](#assignments) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Practice Test](#practice-test) &nbsp;·&nbsp; [Laboratory](#processor-architecture-laboratory) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
 </div>
 
@@ -143,11 +143,11 @@ Study materials and planning resources for effective exam preparation:
 
 | Resource | Description |
 |:---|:---|
-| 📝 [COA Notes](Reference%20Books/COA_Notes.pdf) | Comprehensive lecture notes by Amey Thakur |
-| 📝 [Syllabus Breakdown](My%20Preparation/Syllabus.png) | Detailed module-wise syllabus notes |
-| 📊 [Module Planning](My%20Preparation/Modules.png) | Topic organization and study schedule |
-| 🎯 [Examination Blueprint](Blueprint%20(COA).png) | Question paper pattern and marking scheme |
-| 🏆 [Achievement Certificate](Certificate.jpg) | Recognition in computer architecture excellence |
+| [COA Notes](Reference%20Books/COA_Notes.pdf) | Comprehensive lecture notes by Amey Thakur |
+| [Syllabus Breakdown](My%20Preparation/Syllabus.png) | Detailed module-wise syllabus notes |
+| [Module Planning](My%20Preparation/Modules.png) | Topic organization and study schedule |
+| [Examination Blueprint](Blueprint%20(COA).png) | Question paper pattern and marking scheme |
+| [Achievement Certificate](Certificate.jpg) | Recognition in computer architecture excellence |
 
 ---
 
@@ -157,11 +157,11 @@ Academic assignments for comprehensive learning and practice:
 
 | # | Assignment | Description | Date | Marks | Link |
 |:-:|:---|:---|:---:|:---:|:---:|
-| 1 | **Assignment 1** | Fundamental concepts and register organization | March 8, 2020 | 9/10 | [📄 View](Assignments/COA_Assignment-1.pdf) |
+| 1 | **Assignment 1** | Fundamental concepts and register organization | March 8, 2020 | 9/10 | [View](Assignments/COA_Assignment-1.pdf) |
 | 2 | **Assignment 2** | Arithmetic operations and control design | March 15, 2020 | 9/10 | - |
-| 3 | **Assignment 3** | Control unit and microprogramming | March 21, 2020 | 9/10 | [📄 View](Assignments/COA_Assignment-3.pdf) |
-| 4 | **Assignment 4** | Memory organization and cache mapping | April 4, 2020 | 9/10 | [📄 View](Assignments/COA_Assignment-4.pdf) |
-| 5 | **Assignment 5** | I/O organization and advanced topics | April 18, 2020 | 9/10 | [📄 View](Assignments/COA_Assignment-5.pdf) |
+| 3 | **Assignment 3** | Control unit and microprogramming | March 21, 2020 | 9/10 | [View](Assignments/COA_Assignment-3.pdf) |
+| 4 | **Assignment 4** | Memory organization and cache mapping | April 4, 2020 | 9/10 | [View](Assignments/COA_Assignment-4.pdf) |
+| 5 | **Assignment 5** | I/O organization and advanced topics | April 18, 2020 | 9/10 | [View](Assignments/COA_Assignment-5.pdf) |
 
 **Topics Covered**: Computer Organization (Register organization, ISA, Addressing modes) · Control Unit Design (Hardwired, Microprogrammed) · Arithmetic Operations (Booth's, Restoring Division) · Memory Organization (Cache mapping) · I/O Organization
 
@@ -188,7 +188,7 @@ Mid-semester practice assessment:
 
 | Test | Date | Time | Class | Link |
 |:---|:---:|:---:|:---:|:---:|
-| **Practice Test COA** | April 5, 2020 | 10:00 AM - 11:00 AM | SE B-50 | [📄 View](COA_Test_B-50.pdf) |
+| **Practice Test COA** | April 5, 2020 | 10:00 AM - 11:00 AM | SE B-50 | [View](COA_Test_B-50.pdf) |
 
 ---
 
@@ -216,21 +216,21 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 
 | Experiment | Topic | Type | Marks | View |
 |:---|:---|:-:|:-:|:-:|
-| **Experiment 1** | Introduction to Processor Architecture | 📄 Theory | 8/10 | [📄](Processor%20Architecture%20Lab/Experiment-1/AMEY_B-50_PAL_EXPERIMENT-1.pdf) |
-| **Experiment 2** | Booth's Multiplication Algorithm | 💻 C Code | 8/10 | [📂](Processor%20Architecture%20Lab/Experiment-2/) |
-| **Experiment 3** | Restoring Division Algorithm | 💻 C Code | 8/10 | [📂](Processor%20Architecture%20Lab/Experiment-3/) |
-| **Experiment 4** | Ripple Carry Adder Design | 🔌 Logisim | 9/10 | [📂](Processor%20Architecture%20Lab/Experiment-4/) |
-| **Experiment 5** | ALU Design | 🔌 Logisim | 9/10 | [📂](Processor%20Architecture%20Lab/Experiment-5/) |
-| **Experiment 6** | Shift Register Design | 🔌 Logisim | 9/10 | [📂](Processor%20Architecture%20Lab/Experiment-6/) |
-| **Experiment 7** | Control Unit Design | 📄 Theory | 9/10 | [📄](Processor%20Architecture%20Lab/Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) |
-| **Experiment 8** | Memory Organization | 📄 Theory | 9/10 | [📄](Processor%20Architecture%20Lab/Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) |
-| **Experiment 9** | Cache Memory Design | 📄 Theory | 8/10 | [📄](Processor%20Architecture%20Lab/Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) |
-| **Experiment 10** | Pipelining Concepts | 📄 Theory | 9/10 | [📄](Processor%20Architecture%20Lab/Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) |
+| **Experiment 1** | Introduction to Processor Architecture | Theory | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-1/AMEY_B-50_PAL_EXPERIMENT-1.pdf) |
+| **Experiment 2** | Booth's Multiplication Algorithm | C Code | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-2/) |
+| **Experiment 3** | Restoring Division Algorithm | C Code | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-3/) |
+| **Experiment 4** | Ripple Carry Adder Design | Logisim | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-4/) |
+| **Experiment 5** | ALU Design | Logisim | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-5/) |
+| **Experiment 6** | Shift Register Design | Logisim | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-6/) |
+| **Experiment 7** | Control Unit Design | Theory | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) |
+| **Experiment 8** | Memory Organization | Theory | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) |
+| **Experiment 9** | Cache Memory Design | Theory | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) |
+| **Experiment 10** | Pipelining Concepts | Theory | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) |
 
 ### Program Details
 
 <details>
-<summary><strong>🔢 Experiment 2: Booth's Multiplication Algorithm (C Program)</strong></summary>
+<summary><strong>Experiment 2: Booth's Multiplication Algorithm (C Program)</strong></summary>
 
 | Program | Algorithm | Description | Code |
 |:---|:---|:---|:-:|
@@ -239,7 +239,7 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 </details>
 
 <details>
-<summary><strong>➗ Experiment 3: Restoring Division Algorithm (C Program)</strong></summary>
+<summary><strong>Experiment 3: Restoring Division Algorithm (C Program)</strong></summary>
 
 | Program | Algorithm | Description | Code |
 |:---|:---|:---|:-:|
@@ -248,7 +248,7 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 </details>
 
 <details>
-<summary><strong>➕ Experiment 4: Ripple Carry Adder (Logisim Circuit)</strong></summary>
+<summary><strong>Experiment 4: Ripple Carry Adder (Logisim Circuit)</strong></summary>
 
 | Circuit | Components | Outputs | File |
 |:---|:---|:---|:-:|
@@ -259,7 +259,7 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 </details>
 
 <details>
-<summary><strong>⚡ Experiment 5: ALU Design (Logisim Circuit)</strong></summary>
+<summary><strong>Experiment 5: ALU Design (Logisim Circuit)</strong></summary>
 
 | Circuit | Description | File |
 |:---|:---|:-:|
@@ -269,7 +269,7 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 </details>
 
 <details>
-<summary><strong>↔️ Experiment 6: Shift Register Design (Logisim Circuit)</strong></summary>
+<summary><strong>Experiment 6: Shift Register Design (Logisim Circuit)</strong></summary>
 
 | Circuit | Description | File |
 |:---|:---|:-:|
@@ -283,8 +283,8 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 
 | Resource | Description |
 |:---|:---|
-| 🧪 [Laboratory Journal](Processor%20Architecture%20Lab/PRACTICAL%20LAB.pdf) | Complete record of experiments with code, outputs, and analysis |
-| 📖 [Lab README](Processor%20Architecture%20Lab/) | Detailed navigation guide with program descriptions |
+| [Laboratory Journal](Processor%20Architecture%20Lab/PRACTICAL%20LAB.pdf) | Complete record of experiments with code, outputs, and analysis |
+| [Lab README](Processor%20Architecture%20Lab/) | Detailed navigation guide with program descriptions |
 
 ---
 
@@ -294,7 +294,7 @@ Course completion documentation with exit survey:
 
 | Document | Description | Link |
 |:---|:---|:---:|
-| **Submission Completion Report** | Final coursework and lab submission report with exit survey | [📋 View](Submission%20Completion%20Report%20COA_PAL%20(Amey%20B-50).pdf) |
+| **Submission Completion Report** | Final coursework and lab submission report with exit survey | [View](Submission%20Completion%20Report%20COA_PAL%20(Amey%20B-50).pdf) |
 
 ---
 
@@ -303,7 +303,7 @@ Course completion documentation with exit survey:
      ========================================================================================= -->
 ## Syllabus
 
-> 📋 **[Official CBCGS Syllabus](SE-Comps_CBCGS_Syllabus.pdf)**  
+> **[Official CBCGS Syllabus](SE-Comps_CBCGS_Syllabus.pdf)**  
 > Complete Second Year Computer Engineering syllabus document from the University of Mumbai, including detailed course outcomes, assessment criteria, and module specifications for Computer Organization and Architecture and Processor Architecture Lab.
 
 > [!IMPORTANT]
@@ -371,13 +371,13 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 <div align="center">
 
   <!-- Footer Navigation -->
-  **[⬆ Back to Top](#computer-organization-and-architecture-and-processor-architecture-lab)**
+  **[↑ Back to Top](#computer-organization-and-architecture-and-processor-architecture-lab)**
 
-  **[📖 Overview](#overview)** &nbsp;·&nbsp; **[📂 Contents](#repository-contents)** &nbsp;·&nbsp; **[📚 Reference Books](#reference-books)** &nbsp;·&nbsp; **[👫🏻 The Wall](#the-wall)** &nbsp;·&nbsp; **[✏️ Personal Preparation](#personal-preparation)** &nbsp;·&nbsp; **[📄 Assignments](#assignments)** &nbsp;·&nbsp; **[📊 Quizzes](#quizzes)** &nbsp;·&nbsp; **[📝 Practice Test](#practice-test)** &nbsp;·&nbsp; **[🧪 Laboratory](#processor-architecture-laboratory)** &nbsp;·&nbsp; **[✅ Submission Report](#submission-completion-report)** &nbsp;·&nbsp; **[📋 Syllabus](#syllabus)** &nbsp;·&nbsp; **[📘 Usage Guidelines](#usage-guidelines)** &nbsp;·&nbsp; **[📜 License](#license)** &nbsp;·&nbsp; **[ℹ️ About](#about-this-repository)** &nbsp;·&nbsp; **[🙏🏻 Acknowledgments](#acknowledgments)**
+  **[Overview](#overview)** &nbsp;·&nbsp; **[Contents](#repository-contents)** &nbsp;·&nbsp; **[Reference Books](#reference-books)** &nbsp;·&nbsp; **[The Wall](#the-wall)** &nbsp;·&nbsp; **[Personal Preparation](#personal-preparation)** &nbsp;·&nbsp; **[Assignments](#assignments)** &nbsp;·&nbsp; **[Quizzes](#quizzes)** &nbsp;·&nbsp; **[Practice Test](#practice-test)** &nbsp;·&nbsp; **[Laboratory](#processor-architecture-laboratory)** &nbsp;·&nbsp; **[Submission Report](#submission-completion-report)** &nbsp;·&nbsp; **[Syllabus](#syllabus)** &nbsp;·&nbsp; **[Usage Guidelines](#usage-guidelines)** &nbsp;·&nbsp; **[License](#license)** &nbsp;·&nbsp; **[About](#about-this-repository)** &nbsp;·&nbsp; **[Acknowledgments](#acknowledgments)**
 
   <br>
 
-  **[🧪 Processor Architecture Laboratory](Processor%20Architecture%20Lab/)**
+  **[Processor Architecture Laboratory](Processor%20Architecture%20Lab/)**
 
 </div>
 
