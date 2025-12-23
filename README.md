@@ -186,9 +186,9 @@ Chapter-wise quizzes for continuous assessment:
 
 Practice assessment details:
 
-| # | Test | Date | Time | Class | Link |
-|:-:|:---|:---:|:---:|:---:|:---:|
-| 1 | **Practice Test COA** | April 5, 2020 | 10:00 AM - 11:00 AM | SE B-50 | [View](COA_Test_B-50.pdf) |
+| # | Test | Date | Time | Class |
+|:-:|:---|:-:|:-:|:-:|
+| 1 | [**Practice Test COA**](COA_Test_B-50.pdf) | April 5, 2020 | 10:00 AM - 11:00 AM | SE B-50 |
 
 ---
 
