@@ -155,13 +155,13 @@ Study materials and planning resources for effective exam preparation:
 
 Academic assignments for comprehensive learning and practice:
 
-| # | Assignment | Description | Date | Marks | Link |
-|:-:|:---|:---|:---:|:---:|:---:|
-| 1 | **Assignment 1** | Fundamental concepts and register organization | March 8, 2020 | 9/10 | [View](Assignments/COA_Assignment-1.pdf) |
-| 2 | **Assignment 2** | Arithmetic operations and control design | March 15, 2020 | 9/10 | - |
-| 3 | **Assignment 3** | Control unit and microprogramming | March 21, 2020 | 9/10 | [View](Assignments/COA_Assignment-3.pdf) |
-| 4 | **Assignment 4** | Memory organization and cache mapping | April 4, 2020 | 9/10 | [View](Assignments/COA_Assignment-4.pdf) |
-| 5 | **Assignment 5** | I/O organization and advanced topics | April 18, 2020 | 9/10 | [View](Assignments/COA_Assignment-5.pdf) |
+| # | Assignment | Description | Date | Marks |
+|:-:|:---|:---|:-:|:-:|
+| 1 | [**Assignment 1**](Assignments/COA_Assignment-1.pdf) | Fundamental concepts and register organization | March 8, 2020 | 9/10 |
+| 2 | **Assignment 2** | Arithmetic operations and control design | March 15, 2020 | 9/10 |
+| 3 | [**Assignment 3**](Assignments/COA_Assignment-3.pdf) | Control unit and microprogramming | March 21, 2020 | 9/10 |
+| 4 | [**Assignment 4**](Assignments/COA_Assignment-4.pdf) | Memory organization and cache mapping | April 4, 2020 | 9/10 |
+| 5 | [**Assignment 5**](Assignments/COA_Assignment-5.pdf) | I/O organization and advanced topics | April 18, 2020 | 9/10 |
 
 **Topics Covered**: Computer Organization (Register organization, ISA, Addressing modes) · Control Unit Design (Hardwired, Microprogrammed) · Arithmetic Operations (Booth's, Restoring Division) · Memory Organization (Cache mapping) · I/O Organization
 
