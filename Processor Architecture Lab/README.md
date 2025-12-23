@@ -174,12 +174,12 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
      ========================================================================================= -->
 ## Experiments 7-10: Advanced Topics
 
-| # | Experiment | Topic | Resource |
-|:---|:---|:---|:---|
-| 7 | **Experiment 7** | Control Unit Design | [View](Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) |
-| 8 | **Experiment 8** | Memory Organization | [View](Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) |
-| 9 | **Experiment 9** | Cache Memory Design | [View](Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) |
-| 10 | **Experiment 10** | Pipelining Concepts | [View](Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) |
+| # | Experiment | Topic |
+|:---|:---|:---|
+| 7 | [**Experiment 7**](Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) | Control Unit Design |
+| 8 | [**Experiment 8**](Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) | Memory Organization |
+| 9 | [**Experiment 9**](Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) | Cache Memory Design |
+| 10 | [**Experiment 10**](Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) | Pipelining Concepts |
 
 ---
 
