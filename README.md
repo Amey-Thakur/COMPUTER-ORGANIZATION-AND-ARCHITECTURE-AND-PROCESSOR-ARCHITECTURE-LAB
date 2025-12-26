@@ -225,7 +225,7 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 | **7** | Control Unit Design | Theory | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) |
 | **8** | Memory Organization | Theory | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) |
 | **9** | Cache Memory Design | Theory | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) |
-| **10** | Pipelining Concepts<br>To study types of Interrupts and techniques to Handle Interrupts. | Theory | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) |
+| **10** | To study types of Interrupts and techniques to Handle Interrupts. | Theory | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) |
 
 ### Program Details
 
