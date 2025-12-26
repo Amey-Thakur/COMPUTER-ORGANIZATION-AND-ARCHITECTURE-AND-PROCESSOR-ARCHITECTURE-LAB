@@ -377,7 +377,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
   <br>
 
-  🔬 [Processor Architecture Laboratory](Processor%20Architecture%20Lab/)
+  🔬 **[Processor Architecture Laboratory](Processor%20Architecture%20Lab/)**
 
 </div>
 
