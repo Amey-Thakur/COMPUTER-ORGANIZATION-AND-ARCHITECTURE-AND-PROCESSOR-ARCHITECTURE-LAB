@@ -103,9 +103,9 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
 
 **Date**: February 03, 2020
 
-| # | Resource | Description |
-|:-:|:---|:---|
-| 1 | [AMEY_B-50_PAL_EXPERIMENT-1.pdf](Experiment-1/AMEY_B-50_PAL_EXPERIMENT-1.pdf) | Introduction to processor architecture concepts |
+| # | Experiment | Description | Link |
+|:-:|:---|:---|:-:|
+| 1 | Experiment 1 | Introduction to processor architecture concepts | [View](Experiment-1/AMEY_B-50_PAL_EXPERIMENT-1.pdf) |
 
 ---
 
@@ -186,12 +186,12 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
      ========================================================================================= -->
 ## Experiments 7-10: Advanced Topics
 
-| # | Experiment | Topic | Date |
-|:-:|:---|:---|:-:|
-| 7 | [Experiment 7](Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) | To stimulate RAM and ROM using Logisim | March 17, 2020 |
-| 8 | [Experiment 8](Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) | Case study in buses like ISA,PCI and USB. | March 17, 2020 |
-| 9 | [Experiment 9](Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) | Case study on Multi-Core Processors. | March 17, 2020 |
-| 10 | [Experiment 10](Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) | To study types of Interrupts and techniques to Handle Interrupts. | April 09, 2020 |
+| # | Experiment | Topic | Date | Link |
+|:-:|:---|:---|:-:|:-:|
+| 1 | Experiment 7 | To stimulate RAM and ROM using Logisim | March 17, 2020 | [View](Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) |
+| 2 | Experiment 8 | Case study in buses like ISA,PCI and USB. | March 17, 2020 | [View](Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) |
+| 3 | Experiment 9 | Case study on Multi-Core Processors. | March 17, 2020 | [View](Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) |
+| 4 | Experiment 10 | To study types of Interrupts and techniques to Handle Interrupts. | April 09, 2020 | [View](Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) |
 
 ---
 
