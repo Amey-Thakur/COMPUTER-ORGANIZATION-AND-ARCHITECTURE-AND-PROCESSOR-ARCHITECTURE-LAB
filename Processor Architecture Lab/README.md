@@ -208,7 +208,7 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
 
   <br>
 
-  **[🏠 Back to Main Repository](../)**
+  🏠 **[Back to Main Repository](../)**
 
   ---
 
