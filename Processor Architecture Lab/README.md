@@ -176,10 +176,10 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
 
 | # | Experiment | Topic |
 |:-:|:---|:---|
-| 7 | [**Experiment 7**](Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) | Control Unit Design |
-| 8 | [**Experiment 8**](Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) | Memory Organization |
-| 9 | [**Experiment 9**](Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) | Cache Memory Design |
-| 10 | [**Experiment 10**](Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) | Pipelining Concepts |
+| 7 | [Experiment 7](Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) | Control Unit Design |
+| 8 | [Experiment 8](Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) | Memory Organization |
+| 9 | [Experiment 9](Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) | Cache Memory Design |
+| 10 | [Experiment 10](Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) | Pipelining Concepts |
 
 ---
 
@@ -190,9 +190,9 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
 <div align="center">
 
   <!-- Footer Navigation -->
-  **[↑ Back to Top](#processor-architecture-lab)**
+  [↑ Back to Top](#processor-architecture-lab)
 
-  **[How to Use](#how-to-use)** &nbsp;·&nbsp; **[Learning Path](#learning-path)** &nbsp;·&nbsp; **[Lab Manual](#lab-manual)** &nbsp;·&nbsp; **[Experiment 1](#experiment-1-introduction-to-processor-architecture)** &nbsp;·&nbsp; **[Experiment 2](#experiment-2-booths-multiplication-algorithm)** &nbsp;·&nbsp; **[Experiment 3](#experiment-3-restoring-division-algorithm)** &nbsp;·&nbsp; **[Experiment 4](#experiment-4-ripple-carry-adder-design)** &nbsp;·&nbsp; **[Experiment 5](#experiment-5-alu-design)** &nbsp;·&nbsp; **[Experiment 6](#experiment-6-shift-register-design)** &nbsp;·&nbsp; **[Experiments 7-10](#experiments-7-10-advanced-topics)**
+  [How to Use](#how-to-use) &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Lab Manual](#lab-manual) &nbsp;·&nbsp; [Experiment 1](#experiment-1-introduction-to-processor-architecture) &nbsp;·&nbsp; [Experiment 2](#experiment-2-booths-multiplication-algorithm) &nbsp;·&nbsp; [Experiment 3](#experiment-3-restoring-division-algorithm) &nbsp;·&nbsp; [Experiment 4](#experiment-4-ripple-carry-adder-design) &nbsp;·&nbsp; [Experiment 5](#experiment-5-alu-design) &nbsp;·&nbsp; [Experiment 6](#experiment-6-shift-register-design) &nbsp;·&nbsp; [Experiments 7-10](#experiments-7-10-advanced-topics)
 
   <br>
 
@@ -200,7 +200,7 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
 
   ---
 
-  ### [Computer Organization and Architecture and Processor Architecture Lab](https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB)
+  ### [Computer Organization and Architecture and Processor Architecture Lab](../)
 
   **CSC403 & CSL403 · Semester IV · Computer Engineering**
 

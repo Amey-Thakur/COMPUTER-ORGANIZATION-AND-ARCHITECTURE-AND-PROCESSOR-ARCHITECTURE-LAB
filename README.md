@@ -157,11 +157,11 @@ Academic assignments for comprehensive learning and practice:
 
 | # | Assignment | Description | Date | Marks |
 |:-:|:---|:---|:-:|:-:|
-| 1 | [**Assignment 1**](Assignments/COA_Assignment-1.pdf) | Fundamental concepts and register organization | March 8, 2020 | 9/10 |
-| 2 | **Assignment 2** | Arithmetic operations and control design | March 15, 2020 | 9/10 |
-| 3 | [**Assignment 3**](Assignments/COA_Assignment-3.pdf) | Control unit and microprogramming | March 21, 2020 | 9/10 |
-| 4 | [**Assignment 4**](Assignments/COA_Assignment-4.pdf) | Memory organization and cache mapping | April 4, 2020 | 9/10 |
-| 5 | [**Assignment 5**](Assignments/COA_Assignment-5.pdf) | I/O organization and advanced topics | April 18, 2020 | 9/10 |
+| 1 | [Assignment 1](Assignments/COA_Assignment-1.pdf) | Fundamental concepts and register organization | March 8, 2020 | 9/10 |
+| 2 | Assignment 2 | Arithmetic operations and control design | March 15, 2020 | 9/10 |
+| 3 | [Assignment 3](Assignments/COA_Assignment-3.pdf) | Control unit and microprogramming | March 21, 2020 | 9/10 |
+| 4 | [Assignment 4](Assignments/COA_Assignment-4.pdf) | Memory organization and cache mapping | April 4, 2020 | 9/10 |
+| 5 | [Assignment 5](Assignments/COA_Assignment-5.pdf) | I/O organization and advanced topics | April 18, 2020 | 9/10 |
 
 **Topics Covered**: Computer Organization (Register organization, ISA, Addressing modes) · Control Unit Design (Hardwired, Microprogrammed) · Arithmetic Operations (Booth's, Restoring Division) · Memory Organization (Cache mapping) · I/O Organization
 
@@ -188,7 +188,7 @@ Practice assessment details:
 
 | # | Test | Date | Time | Class |
 |:-:|:---|:-:|:-:|:-:|
-| 1 | [**Practice Test COA**](COA_Test_B-50.pdf) | April 5, 2020 | 10:00 AM - 11:00 AM | SE B-50 |
+| 1 | [Practice Test COA](COA_Test_B-50.pdf) | April 5, 2020 | 10:00 AM - 11:00 AM | SE B-50 |
 
 ---
 
@@ -294,7 +294,7 @@ Course completion documentation with exit survey:
 
 | # | Document | Description |
 |:-:|:---|:---|
-| 1 | [**Submission Completion Report**](Submission%20Completion%20Report%20COA_PAL%20(Amey%20B-50).pdf) | Final coursework and lab submission report with exit survey |
+| 1 | [Submission Completion Report](Submission%20Completion%20Report%20COA_PAL%20(Amey%20B-50).pdf) | Final coursework and lab submission report with exit survey |
 
 ---
 
@@ -357,7 +357,7 @@ This repository represents a comprehensive collection of study materials, refere
 
 ### Acknowledgments
 
-Grateful acknowledgment to [Mega Satish](https://github.com/msatmod) for her exceptional contribution to this repository through "THE WALL" - comprehensive chapter-wise notes that became an invaluable resource for understanding complex computer architecture concepts. Her constant support, patience, and clarity throughout this journey made a real difference. Learning alongside her was transformative, not only because she explained concepts so clearly, but because she truly cared about understanding them together. Her thoughtful approach to teaching, openness to discussion, and steady encouragement turned challenges into meaningful learning moments. This work reflects the growth that came from learning side by side. Thank you, Mega, for everything you shared and taught along the way.
+Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** for her exceptional contribution to this repository through "THE WALL" - comprehensive chapter-wise notes that became an invaluable resource for understanding complex computer architecture concepts. Her constant support, patience, and clarity throughout this journey made a real difference. Learning alongside her was transformative, not only because she explained concepts so clearly, but because she truly cared about understanding them together. Her thoughtful approach to teaching, openness to discussion, and steady encouragement turned challenges into meaningful learning moments. This work reflects the growth that came from learning side by side. Thank you, Mega, for everything you shared and taught along the way.
 
 Special thanks to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance and instruction in Computer Organization and Architecture. Their clear teaching and continued support helped develop a strong understanding of processor design and computer system architecture.
 
@@ -371,13 +371,13 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 <div align="center">
 
   <!-- Footer Navigation -->
-  **[↑ Back to Top](#computer-organization-and-architecture-and-processor-architecture-lab)**
+  [↑ Back to Top](#computer-organization-and-architecture-and-processor-architecture-lab)
 
-  **[Overview](#overview)** &nbsp;·&nbsp; **[Contents](#repository-contents)** &nbsp;·&nbsp; **[Reference Books](#reference-books)** &nbsp;·&nbsp; **[The Wall](#the-wall)** &nbsp;·&nbsp; **[Personal Preparation](#personal-preparation)** &nbsp;·&nbsp; **[Assignments](#assignments)** &nbsp;·&nbsp; **[Quizzes](#quizzes)** &nbsp;·&nbsp; **[Practice Test](#practice-test)** &nbsp;·&nbsp; **[Laboratory](#processor-architecture-laboratory)** &nbsp;·&nbsp; **[Submission Report](#submission-completion-report)** &nbsp;·&nbsp; **[Syllabus](#syllabus)** &nbsp;·&nbsp; **[Usage Guidelines](#usage-guidelines)** &nbsp;·&nbsp; **[License](#license)** &nbsp;·&nbsp; **[About](#about-this-repository)** &nbsp;·&nbsp; **[Acknowledgments](#acknowledgments)**
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [The Wall](#the-wall) &nbsp;·&nbsp; [Personal Preparation](#personal-preparation) &nbsp;·&nbsp; [Assignments](#assignments) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Practice Test](#practice-test) &nbsp;·&nbsp; [Laboratory](#processor-architecture-laboratory) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 
-  **[Processor Architecture Laboratory](Processor%20Architecture%20Lab/)**
+  🔬 [Processor Architecture Laboratory](Processor%20Architecture%20Lab/)
 
 </div>
 
