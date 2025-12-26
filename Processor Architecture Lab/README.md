@@ -101,6 +101,8 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
      ========================================================================================= -->
 ## Experiment 1: Introduction to Processor Architecture
 
+**Date**: February 03, 2020
+
 | # | Resource | Description |
 |:-:|:---|:---|
 | 1 | [AMEY_B-50_PAL_EXPERIMENT-1.pdf](Experiment-1/AMEY_B-50_PAL_EXPERIMENT-1.pdf) | Introduction to processor architecture concepts |
@@ -112,9 +114,11 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
      ========================================================================================= -->
 ## Experiment 2: Booth's Multiplication Algorithm
 
-| # | Program | Algorithm | Description |
-|:-:|:---|:---|:---|
-| 1 | [Booths_Multiplication_Algorithm.c](Experiment-2/Booths_Multiplication_Algorithm.c) | Booth's Algorithm | Signed binary multiplication using two's complement |
+**Date**: February 06, 2020
+
+| # | Program | Algorithm | Description | Source Code |
+|:-:|:---|:---|:---|:-:|
+| 1 | Booths_Multiplication_Algorithm.c | Booth's Algorithm | Signed binary multiplication using two's complement | [View](Experiment-2/Booths_Multiplication_Algorithm.c) |
 
 **Output**: [View Output](Experiment-2/Output.png)
 
@@ -125,9 +129,11 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
      ========================================================================================= -->
 ## Experiment 3: Restoring Division Algorithm
 
-| # | Program | Algorithm | Description |
-|:-:|:---|:---|:---|
-| 1 | [Restoring_Division_Algorithm.c](Experiment-3/Restoring_Division_Algorithm.c) | Restoring Division | Binary division with restoration step |
+**Date**: February 06, 2020
+
+| # | Program | Algorithm | Description | Source Code |
+|:-:|:---|:---|:---|:-:|
+| 1 | Restoring_Division_Algorithm.c | Restoring Division | Binary division with restoration step | [View](Experiment-3/Restoring_Division_Algorithm.c) |
 
 ---
 
@@ -136,9 +142,11 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
      ========================================================================================= -->
 ## Experiment 4: Ripple Carry Adder Design
 
-| # | Circuit | Description |
-|:-:|:---|:---|
-| 1 | [RIPPLE_CARRY_ADDER.circ](Experiment-4/RIPPLE_CARRY_ADDER.circ) | 4-bit Ripple Carry Adder in Logisim |
+**Date**: March 17, 2020
+
+| # | Circuit | Description | Source Code |
+|:-:|:---|:---|:-:|
+| 1 | RIPPLE_CARRY_ADDER.circ | 4-bit Ripple Carry Adder in Logisim | [View](Experiment-4/RIPPLE_CARRY_ADDER.circ) |
 
 **Circuit Diagrams**: [Half Adder](Experiment-4/HALF_ADDER.png) · [Full Adder](Experiment-4/FULL_ADDER.png) · [Ripple Carry Adder](Experiment-4/RIPPLE_CARRY_ADDER.png)
 
@@ -149,10 +157,12 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
      ========================================================================================= -->
 ## Experiment 5: ALU Design
 
-| # | Circuit | Description |
-|:-:|:---|:---|
-| 1 | [ALU.circ](Experiment-5/ALU.circ) | Basic ALU component |
-| 2 | [ALU_Design.circ](Experiment-5/ALU_Design.circ) | Complete ALU design in Logisim |
+**Date**: March 17, 2020
+
+| # | Circuit | Description | Source Code |
+|:-:|:---|:---|:-:|
+| 1 | ALU.circ | Basic ALU component | [View](Experiment-5/ALU.circ) |
+| 2 | ALU_Design.circ | Complete ALU design in Logisim | [View](Experiment-5/ALU_Design.circ) |
 
 ---
 
@@ -161,9 +171,11 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
      ========================================================================================= -->
 ## Experiment 6: Shift Register Design
 
-| # | Circuit | Description |
-|:-:|:---|:---|
-| 1 | [SHIFT_REGISTER.circ](Experiment-6/SHIFT_REGISTER.circ) | Complete shift register implementation |
+**Date**: March 17, 2020
+
+| # | Circuit | Description | Source Code |
+|:-:|:---|:---|:-:|
+| 1 | SHIFT_REGISTER.circ | Complete shift register implementation | [View](Experiment-6/SHIFT_REGISTER.circ) |
 
 **Circuit Diagrams**: [Left Shift](Experiment-6/LEFT_SHIFT_REGISTER.png) · [Right Shift](Experiment-6/RIGHT_SHIFT_REGISTER.png) · [PIPO](Experiment-6/PIPO_SHIFT_REGISTER.png)
 
@@ -174,12 +186,12 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
      ========================================================================================= -->
 ## Experiments 7-10: Advanced Topics
 
-| # | Experiment | Topic |
-|:-:|:---|:---|
-| 7 | [Experiment 7](Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) | Control Unit Design |
-| 8 | [Experiment 8](Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) | Memory Organization |
-| 9 | [Experiment 9](Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) | Cache Memory Design |
-| 10 | [Experiment 10](Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) | Pipelining Concepts |
+| # | Experiment | Topic | Date |
+|:-:|:---|:---|:-:|
+| 7 | [Experiment 7](Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) | To stimulate RAM and ROM using Logisim | March 17, 2020 |
+| 8 | [Experiment 8](Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) | Case study in buses like ISA,PCI and USB. | March 17, 2020 |
+| 9 | [Experiment 9](Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) | Case study on Multi-Core Processors. | March 17, 2020 |
+| 10 | [Experiment 10](Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) | To study types of Interrupts and techniques to Handle Interrupts. | April 09, 2020 |
 
 ---
 
