@@ -214,18 +214,18 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 
 ### Laboratory Experiments
 
-| # | Experiment | Type | Marks | Report |
-|:-:|:---|:-:|:-:|:-:|
-| **1** | Introduction to Processor Architecture | Theory | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-1/AMEY_B-50_PAL_EXPERIMENT-1.pdf) |
-| **2** | Booth's Multiplication Algorithm | C Code | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-2/) |
-| **3** | Restoring Division Algorithm | C Code | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-3/) |
-| **4** | Ripple Carry Adder Design | Logisim | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-4/) |
-| **5** | ALU Design | Logisim | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-5/) |
-| **6** | Shift Register Design | Logisim | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-6/) |
-| **7** | Control Unit Design | Theory | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) |
-| **8** | Memory Organization | Theory | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) |
-| **9** | Cache Memory Design | Theory | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) |
-| **10** | To study types of Interrupts and techniques to Handle Interrupts. | Theory | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) |
+| # | Experiment | Type | Date | Marks | Report |
+|:-:|:---|:-:|:-:|:-:|:-:|
+| **1** | Introduction to Processor Architecture | Theory | Feb 3, 2020 | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-1/AMEY_B-50_PAL_EXPERIMENT-1.pdf) |
+| **2** | Booth's Multiplication Algorithm | C Code | Feb 6, 2020 | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-2/) |
+| **3** | Restoring Division Algorithm | C Code | Feb 6, 2020 | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-3/) |
+| **4** | Ripple Carry Adder Design | Logisim | Mar 17, 2020 | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-4/) |
+| **5** | ALU Design | Logisim | Mar 17, 2020 | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-5/) |
+| **6** | Shift Register Design | Logisim | Mar 17, 2020 | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-6/) |
+| **7** | Control Unit Design | Theory | Mar 17, 2020 | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-7/AMEY_B-50_PAL_EXPERIMENT-7.pdf) |
+| **8** | Memory Organization | Theory | Mar 17, 2020 | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-8/AMEY_B-50_PAL_EXPERIMENT-8.pdf) |
+| **9** | Cache Memory Design | Theory | Mar 17, 2020 | 8/10 | [View](Processor%20Architecture%20Lab/Experiment-9/AMEY_B-50_PAL_EXPERIMENT-9.pdf) |
+| **10** | To study types of Interrupts and techniques to Handle Interrupts. | Theory | April 9, 2020 | 9/10 | [View](Processor%20Architecture%20Lab/Experiment-10/AMEY_B-50_PAL_EXPERIMENT-10.pdf) |
 
 ### Program Details
 
