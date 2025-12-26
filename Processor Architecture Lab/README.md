@@ -21,7 +21,7 @@
   ---
 
   <!-- Navigation Links -->
-  **[How to Use](#how-to-use)** &nbsp;·&nbsp; **[Learning Path](#learning-path)** &nbsp;·&nbsp; **[Lab Manual](#lab-manual)** &nbsp;·&nbsp; **[Experiment 1](#experiment-1-introduction-to-processor-architecture)** &nbsp;·&nbsp; **[Experiment 2](#experiment-2-booths-multiplication-algorithm)** &nbsp;·&nbsp; **[Experiment 3](#experiment-3-restoring-division-algorithm)** &nbsp;·&nbsp; **[Experiment 4](#experiment-4-ripple-carry-adder-design)** &nbsp;·&nbsp; **[Experiment 5](#experiment-5-alu-design)** &nbsp;·&nbsp; **[Experiment 6](#experiment-6-shift-register-design)** &nbsp;·&nbsp; **[Experiments 7-10](#experiments-7-10-advanced-topics)**
+  [How to Use](#how-to-use) &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Lab Manual](#lab-manual) &nbsp;·&nbsp; [Experiment 1](#experiment-1-introduction-to-processor-architecture) &nbsp;·&nbsp; [Experiment 2](#experiment-2-booths-multiplication-algorithm) &nbsp;·&nbsp; [Experiment 3](#experiment-3-restoring-division-algorithm) &nbsp;·&nbsp; [Experiment 4](#experiment-4-ripple-carry-adder-design) &nbsp;·&nbsp; [Experiment 5](#experiment-5-alu-design) &nbsp;·&nbsp; [Experiment 6](#experiment-6-shift-register-design) &nbsp;·&nbsp; [Experiments 7-10](#experiments-7-10-advanced-topics)
 
 </div>
 
