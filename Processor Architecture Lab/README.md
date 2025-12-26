@@ -92,7 +92,7 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
 
 | # | Resource | Description | Link |
 |:-:|:---|:---|:-:|
-| 1 | PRACTICAL LAB.pdf | Complete laboratory manual with all experiments | [View](PRACTICAL%20LAB.pdf) |
+| 1 | Practical Lab (PDF) | Complete laboratory manual with all experiments | [View](PRACTICAL%20LAB.pdf) |
 
 ---
 
