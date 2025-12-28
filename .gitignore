@@ -1,0 +1,55 @@
+# ALL REPOSITORIES
+# ----------------
+# General
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+*.tmp
+*.bak
+*~
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Assembly / Processor Architecture Artifacts
+*.obj
+*.o
+*.exe
+*.com
+*.map
+*.lst
+*.hex
+*.bin
+*.sym
+*.rel
+*.prn
+*.err
+
+# Simulators (Common 8085/8086 tools)
+*.tasm
+*.masm
+*.nasm
+# Keep source files!
+# If specific simulator generates other junk files, list them here.
+
+# DOSBox
+*.conf
+stdout.txt
+stderr.txt
+
+# Java Build Artifacts (if Java simulators used)
+*.class
+*.jar
+
+# Git
+*.orig
