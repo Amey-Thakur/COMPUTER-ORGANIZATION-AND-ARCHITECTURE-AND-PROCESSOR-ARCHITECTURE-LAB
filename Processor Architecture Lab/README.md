@@ -219,4 +219,3 @@ gcc Booths_Multiplication_Algorithm.c -o Booths -lm
   *University of Mumbai · Curated by [Amey Thakur](https://github.com/Amey-Thakur)*
 
 </div>
-
