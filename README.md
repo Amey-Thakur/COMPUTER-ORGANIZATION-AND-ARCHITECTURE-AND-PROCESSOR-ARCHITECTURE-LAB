@@ -68,7 +68,7 @@ All materials in this repository were gathered, organized, and documented by me 
 
 ### Reference Books
 
-This collection includes **17 comprehensive reference materials** covering all major topics:
+This collection includes **comprehensive reference materials** covering all major topics:
 
 | # | Resource | Focus Area |
 |:-:|:---|:---|
