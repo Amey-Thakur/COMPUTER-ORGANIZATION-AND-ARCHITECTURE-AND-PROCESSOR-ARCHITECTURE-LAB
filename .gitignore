@@ -1,25 +1,21 @@
-# ALL REPOSITORIES
-# ----------------
-# General
+# COA - Academic Repository
+# Specialized .gitignore for processor architecture and scholarly archiving
+
+# OS-generated files
+[Tt]humbs.db
+[Dd]esktop.ini
 .DS_Store
-Thumbs.db
-*.swp
-*.log
-*.tmp
-*.bak
-*~
+.AppleDouble
+.LSOverride
 
-# Windows
-desktop.ini
-$RECYCLE.BIN/
-
-# VS Code
+# Editor and IDE configuration
 .vscode/
-*.code-workspace
-
-# JetBrains
 .idea/
+*.swp
+*.swo
+*~
 *.iml
+*.code-workspace
 
 # Assembly / Processor Architecture Artifacts
 *.obj
@@ -35,21 +31,27 @@ $RECYCLE.BIN/
 *.prn
 *.err
 
-# Simulators (Common 8085/8086 tools)
+# Simulators & Tools
+# (TASM, MASM, NASM, DOSBox)
 *.tasm
 *.masm
 *.nasm
-# Keep source files!
-# If specific simulator generates other junk files, list them here.
-
-# DOSBox
 *.conf
 stdout.txt
 stderr.txt
 
-# Java Build Artifacts (if Java simulators used)
+# Java Build Artifacts
 *.class
 *.jar
 
-# Git
+# Temporary and Cache files
+*.tmp
+*.log
+.cache/
+node_modules/
+
+# Academic build/output artifacts
+*.bak
+*.sav
+*.old
 *.orig
