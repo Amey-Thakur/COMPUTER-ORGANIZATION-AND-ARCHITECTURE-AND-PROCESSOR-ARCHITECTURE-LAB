@@ -53,7 +53,7 @@ As I progress in my career, I recognize that computer architecture fundamentals 
 **Why this repository exists:**
 
 - **Knowledge Preservation**: To maintain organized access to comprehensive study materials beyond the classroom.
-- **Continuous Learning**: To support lifelong learning by enabling easy revisitation of fundamental computer architecture concepts.
+- **Continuous Learning**: To support lifelong learning by enabling seamless revisitation of fundamental computer architecture concepts.
 - **Academic Documentation**: To authentically document my learning journey through COA and PAL.
 - **Community Contribution**: To share these resources with students and learners who may benefit from them.
 
@@ -98,27 +98,10 @@ This collection includes **comprehensive reference materials** covering all majo
 
 **Collaborative Study Notes by Amey & Mega**
 
-<table>
-<tr>
-<td align="center">
-<a href="https://github.com/Amey-Thakur">
-<img src="https://github.com/Amey-Thakur.png" alt="Amey Thakur" width="150" height="150"/><br/>
-<b>Amey Thakur</b>
-</a>
-</td>
-<td align="center">
-<a href="https://github.com/msatmod">
-<img src="THE%20WALL/Mega_Satish.png" alt="Mega Satish" width="150" height="150"/><br/>
-<b>Mega Satish</b>
-</a>
-</td>
-</tr>
-</table>
+| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39.svg)](https://orcid.org/0000-0001-5644-1575) | <img src="THE%20WALL/Mega_Satish.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-A6CE39.svg)](https://orcid.org/0000-0002-1844-9557) |
+| :---: | :---: |
 
 </div>
-
-> [!IMPORTANT]
-> 💝 **Special Thanks**: A heartfelt thank you to Mega for her constant support, patience, and clarity throughout this journey. Learning alongside her made a real difference, not only because she explained concepts so clearly, but because she truly cared about understanding them together. Her thoughtful approach to teaching, openness to discussion, and steady encouragement turned challenges into meaningful learning moments. This work reflects the growth that came from learning side by side. Thank you, Mega, for everything you shared and taught along the way.
 
 ### The Wall - Notes Authored by [MEGA SATISH](https://github.com/msatmod)
 
@@ -132,7 +115,7 @@ Comprehensive chapter-wise notes curated by Mega Satish, covering all essential 
 | 4 | [COA Chapter - 4](THE%20WALL/COA_Chapter-4.pdf) | Memory organization and cache concepts |
 | 5 | [COA Chapter - 5](THE%20WALL/COA_Chapter-5.pdf) | I/O organization and advanced topics |
 
-> [!NOTE]
+> [!IMPORTANT]
 > **COVID-19 Impact**: This coursework was completed during the COVID-19 pandemic in 2020. Due to the nationwide lockdown and the sudden transition to online learning, several planned laboratory sessions and collaborative note-taking activities could not be carried out as originally intended. Despite these challenges, efforts were made to adapt and preserve as much work as possible. The limited chapter notes in this section reflect the disruption caused by the pandemic, rather than a lack of effort or commitment.
 
 ---
@@ -353,13 +336,13 @@ This repository and all linked academic content are made available under the **C
 
 This repository represents a comprehensive collection of study materials, reference books, assignments, and personal preparation notes curated during my academic journey. All content has been carefully organized and documented to serve as a valuable resource for students pursuing Computer Organization and Architecture & Processor Architecture Lab.
 
-**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur)
+**Connect**: [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
 
 ### Acknowledgments
 
-Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** for her exceptional contribution to this repository through "THE WALL" - comprehensive chapter-wise notes that became an invaluable resource for understanding complex computer architecture concepts. Her constant support, patience, and clarity throughout this journey made a real difference. Learning alongside her was transformative, not only because she explained concepts so clearly, but because she truly cared about understanding them together. Her thoughtful approach to teaching, openness to discussion, and steady encouragement turned challenges into meaningful learning moments. This work reflects the growth that came from learning side by side. Thank you, Mega, for everything you shared and taught along the way.
+Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** for her exceptional contribution to this repository through "THE WALL" - comprehensive chapter-wise notes that became an invaluable resource for understanding complex computer architecture concepts. Her constant support, patience, and clarity throughout this journey made a real difference, not only because she explained concepts so clearly, but because she truly cared about understanding them together. Her thoughtful approach to teaching, openness to discussion, and steady encouragement turned challenges into meaningful learning moments. This work reflects the growth that came from learning side by side. Thank you, Mega, for everything you shared and taught along the way.
 
-Special thanks to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance and instruction in Computer Organization and Architecture. Their clear teaching and continued support helped develop a strong understanding of processor design and computer system architecture.
+Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance and instruction in Computer Organization and Architecture. Their clear teaching and continued support helped develop a strong understanding of processor design and computer system architecture.
 
 Special thanks to the mentors and peers whose encouragement, discussions, and support contributed meaningfully to this learning experience.
 
