@@ -53,7 +53,7 @@ As I progress in my career, I recognize that computer architecture fundamentals 
 **Why this repository exists:**
 
 - **Knowledge Preservation**: To maintain organized access to comprehensive study materials beyond the classroom.
-- **Continuous Learning**: To support lifelong learning by enabling seamless revisitation of fundamental computer architecture concepts.
+- **Continuous Learning**: To support lifelong learning by enabling easy revisitation of fundamental computer architecture concepts.
 - **Academic Documentation**: To authentically document my learning journey through COA and PAL.
 - **Community Contribution**: To share these resources with students and learners who may benefit from them.
 
