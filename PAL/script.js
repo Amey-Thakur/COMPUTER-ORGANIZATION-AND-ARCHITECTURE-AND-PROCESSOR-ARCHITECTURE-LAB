@@ -159,6 +159,38 @@ document.addEventListener('DOMContentLoaded', () => {
     initCommandPalette();
     initBoothsVisualizer();
 
+    const shareBtn = document.getElementById('share-btn');
+    if (shareBtn) {
+        shareBtn.addEventListener('click', async () => {
+            const shareData = {
+                title: 'COA/PAL Lab Portfolio — Amey & Mega',
+                text: 'Explore the Computer Organization and Architecture & Processor Architecture Lab Portfolio by Amey Thakur & Mega Satish. Featuring Booth\'s Algorithm Visualizer and advanced digital logic designs!',
+                url: window.location.href
+            };
+
+            try {
+                if (navigator.share) {
+                    await navigator.share(shareData);
+                } else {
+                    throw new Error('Web Share API not supported');
+                }
+            } catch (err) {
+                // Fallback: Copy to clipboard
+                const textArea = document.createElement("textarea");
+                textArea.value = window.location.href;
+                document.body.appendChild(textArea);
+                textArea.select();
+                try {
+                    document.execCommand('copy');
+                    alert('Portfolio link copied to clipboard!');
+                } catch (err) {
+                    console.error('Copy failed', err);
+                }
+                document.body.removeChild(textArea);
+            }
+        });
+    }
+
     const kbdHint = document.getElementById('kbd-hint');
     if (kbdHint) setTimeout(() => kbdHint.classList.add('hidden'), 8000);
 });
@@ -376,7 +408,14 @@ function initBoothsVisualizer() {
         line.className = `terminal-line ${type}`;
         line.innerHTML = text; // Allow HTML for colors
         outputDiv.appendChild(line);
-        outputDiv.scrollTop = outputDiv.scrollHeight;
+
+        // Ensure smooth scroll to bottom for mobile/desktop
+        requestAnimationFrame(() => {
+            outputDiv.scrollTo({
+                top: outputDiv.scrollHeight,
+                behavior: 'smooth'
+            });
+        });
     }
 
     visualizeBtn.addEventListener('click', async () => {

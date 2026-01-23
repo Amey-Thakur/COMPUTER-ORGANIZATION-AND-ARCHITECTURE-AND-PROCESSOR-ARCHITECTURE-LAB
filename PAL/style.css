@@ -1124,6 +1124,19 @@ section {
     .logic-visualizer-card .row {
         flex-direction: column;
     }
+
+    .visualizer-info {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .visualizer-info .icon-wrapper {
+        margin: 0 auto 16px;
+    }
+
+    .terminal-frame {
+        height: 320px;
+    }
 }
 
 @media (max-width: 576px) {

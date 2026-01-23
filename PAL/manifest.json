@@ -1,7 +1,7 @@
 {
     "name": "COA/PAL Lab Portfolio",
     "short_name": "PAL Lab",
-    "description": "Interactive portfolio for Computer Organization and Architecture & Processor Architecture Lab by Amey Thakur.",
+    "description": "Interactive portfolio for Computer Organization and Architecture & Processor Architecture Lab by Amey Thakur & Mega Satish.",
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#0f172a",
