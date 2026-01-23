@@ -188,11 +188,15 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
   [![Language](https://img.shields.io/badge/Language-C%20%7C%20Logisim-blueviolet.svg)](Processor%20Architecture%20Lab/)
   [![Lab Manual](https://img.shields.io/badge/Lab%20Manual-Available-brightgreen.svg)](Processor%20Architecture%20Lab/PRACTICAL%20LAB.pdf)
 
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-PAL%20Portfolio-007bff?style=flat&logo=github)](https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/)
+
 
 
 </div>
 
 > [!TIP]
+> **Live Implementation**: For a comprehensive visual showcase, visit the [PAL Portfolio Dashboard](https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/). For the complete source code and detailed documentation, visit the [Processor Architecture Lab](Processor%20Architecture%20Lab/) directory. Visualization is key. Always trace your algorithm's execution flow on paper before coding. Create timing diagrams and truth tables to verify hardware-software logic.
+>
 > **Circuit Visualization**: When working with Logisim circuits, always trace signal propagation step-by-step and verify truth tables for each component. For algorithms like Booth's multiplication and restoring division, draw timing diagrams showing register states at each clock cycle. Understanding the hardware-software relationship is key to mastering processor architecture.
 
 ### Laboratory Experiments
@@ -266,8 +270,9 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 
 | # | Resource | Description |
 |:-:|:---|:---|
-| 1 | [Laboratory Journal](Processor%20Architecture%20Lab/PRACTICAL%20LAB.pdf) | Complete record of experiments with code, outputs, and analysis |
-| 2 | [Lab README](Processor%20Architecture%20Lab/) | Detailed navigation guide with program descriptions |
+| 1 | [Interactive Lab Portfolio](https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/) | Interactive dashboard with source code descriptions and visualizations |
+| 2 | [Laboratory Journal](Processor%20Architecture%20Lab/PRACTICAL%20LAB.pdf) | Complete record of experiments with code, outputs, and analysis |
+| 3 | [Lab README](Processor%20Architecture%20Lab/) | Detailed navigation guide with program descriptions |
 
 ---
 
@@ -360,7 +365,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
   <br>
 
-  🔬 **[Processor Architecture Laboratory](Processor%20Architecture%20Lab/)**
+  🔬 **[Processor Architecture Laboratory](https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/)**
 
 </div>
 
