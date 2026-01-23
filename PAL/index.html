@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AMEY | COA/PAL Lab Portfolio</title>
+    <meta name="description"
+        content="Scholarly portfolio for Computer Organization and Architecture (COA) and Processor Architecture Lab (PAL) featuring Booth's Algorithm, ALU design, and processor logic by Amey Thakur.">
+    <meta name="author" content="Amey Thakur">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' blob: https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; img-src 'self' data: blob: https: raw.githubusercontent.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; connect-src 'self' blob:; worker-src 'self' blob:;">
+    <meta name="keywords"
+        content="Computer Organization, COA, Processor Architecture, PAL, Booth's Algorithm, Logic Gates, ALU Design, Assembly">
+
+    <!-- Canonical URL -->
+    <link rel="canonical"
+        href="https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/PAL/">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AMEY | COA/PAL Lab Portfolio">
+    <meta property="og:description"
+        content="Scholarly portfolio for Computer Organization and Architecture (COA) and Processor Architecture Lab (PAL).">
+    <meta property="og:url"
+        content="https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/PAL/">
+    <meta property="og:site_name" content="COA/PAL Lab Portfolio">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AMEY | COA/PAL Lab Portfolio">
+    <meta name="twitter:description"
+        content="Scholarly portfolio for Computer Organization and Architecture (COA) and Processor Architecture Lab (PAL).">
+    <meta name="twitter:url"
+        content="https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/PAL/">
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "COA/PAL Lab Portfolio",
+        "url": "https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/PAL/",
+        "author": {
+            "@type": "Person",
+            "name": "Amey Thakur",
+            "url": "https://github.com/Amey-Thakur"
+        },
+        "description": "Scholarly portfolio for Computer Organization and Architecture (COA) and Processor Architecture Lab (PAL)."
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+    <link rel="apple-touch-icon" href="assets/icon-192.png">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2563eb">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="PAL Portfolio">
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Skip to Content Link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Premium Loading Screen -->
+    <div id="skeleton-loader"
+        style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-color); z-index: 10000; display: flex; flex-direction: column; align-items: center; justify-content: center; animation: fadeOutLoader 0.5s ease 1s forwards;">
+        <div
+            style="width: 60px; height: 60px; border: 4px solid rgba(37, 99, 235, 0.2); border-top-color: var(--accent-color); border-radius: 50%; animation: spin 1s linear infinite;">
+        </div>
+        <p
+            style="margin-top: 20px; color: var(--text-secondary); font-family: 'Poppins', sans-serif; font-size: 0.9rem;">
+            Initializing
+            Processor Architecture...</p>
+        <style>
+            @keyframes spin {
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+
+            @keyframes fadeOutLoader {
+                to {
+                    opacity: 0;
+                    visibility: hidden;
+                    pointer-events: none;
+                }
+            }
+
+            .skip-link {
+                position: absolute;
+                top: -40px;
+                left: 0;
+                background: var(--accent-color);
+                color: white;
+                padding: 8px 16px;
+                z-index: 10001;
+                transition: top 0.3s;
+                text-decoration: none;
+                border-radius: 0 0 8px 0;
+            }
+
+            .skip-link:focus {
+                top: 0;
+            }
+        </style>
+    </div>
+
+    <main class="main-container" id="main-content">
+
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="top-controls">
+                <button class="control-btn" id="pwa-install-btn" title="Install App" aria-label="Install App"
+                    style="display: none;">
+                    <i class="fas fa-download" aria-hidden="true"></i>
+                </button>
+                <button class="control-btn" id="share-btn" title="Share Portfolio" aria-label="Share Portfolio">
+                    <i class="fas fa-share-nodes" aria-hidden="true"></i>
+                </button>
+                <button class="control-btn" id="theme-toggle" title="Switch Theme" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <h1>Processor Architecture Lab</h1>
+            <p>A comprehensive academic resource exploring computer organization, logic design, and processor
+                architecture through rigorous experimentation and analysis.</p>
+
+            <div class="info-badges">
+                <div class="d-flex gap-2 justify-content-center w-100 flex-wrap mb-2 align-items-center">
+                    <a href="https://github.com/Amey-Thakur" class="badge-pill clickable-badge" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fas fa-user-graduate me-2"></i>Amey Thakur
+                    </a>
+                    <span class="badge-pill">Roll No: 50</span>
+                    <span class="badge-pill">Batch: B3</span>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB"
+                    class="btn btn-primary-custom" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github me-2"></i>PAL Repo
+                </a>
+                <a href="https://github.com/Amey-Thakur/COMPUTER-ENGINEERING"
+                    class="btn btn-primary-custom btn-secondary-custom" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-code-branch me-2"></i>Computer Engineering Repo
+                </a>
+            </div>
+
+            <!-- Stats Counter -->
+            <div class="stats-container">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="10">0</span>
+                    <span class="stat-label">Experiments</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="5">0</span>
+                    <span class="stat-label">The Wall</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="1">0</span>
+                    <span class="stat-label">Visualizer</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="100" data-suffix="%">0%</span>
+                    <span class="stat-label">Complete</span>
+                </div>
+            </div>
+
+            <div class="mt-4 text-center" style="animation: fadeInDown 1s ease 0.5s both;">
+                <a href="#logic-visualizer"
+                    style="color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 8px; transition: color 0.3s;">
+                    <i class="fas fa-chevron-down" style="animation: bounce 2s infinite;"></i>
+                    <i class="fas fa-microchip"></i> Scroll down to visualize Booth's Algorithm!
+                    <i class="fas fa-chevron-down" style="animation: bounce 2s infinite;"></i>
+                </a>
+            </div>
+        </header>
+
+        <!-- Section: Experiments -->
+        <section aria-labelledby="experiments-title" id="experiments">
+            <div class="section-title reveal">
+                <h3 id="experiments-title">Laboratory Experiments</h3>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Experiment 1: Introduction -->
+                <div class="col-md-6 reveal-left">
+                    <div class="card-custom d-flex flex-column h-100">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <span class="exp-tag">EXPERIMENT 01</span>
+                        <h5>Introduction to Processor Architecture</h5>
+                        <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                            <span class="badge-tech">Computer Org</span>
+                            <span class="badge-tech">Architecture</span>
+                            <span class="badge-tech">Fundamentals</span>
+                            <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
+                                data-tooltip="CPU architecture and system organization.">Arch</span>
+                        </div>
+                        <p class="flex-grow-1">Introduction to processor architecture concepts, computer organization
+                            fundamentals, and basic computing principles.</p>
+                        <a href="https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-1"
+                            class="launch-link mt-3" target="_blank" rel="noopener noreferrer">
+                            View Code <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Experiment 2: Booth's Algorithm -->
+                <div class="col-md-6 reveal-right">
+                    <div class="card-custom d-flex flex-column h-100">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <span class="exp-tag">EXPERIMENT 02</span>
+                        <h5>Booth's Multiplication Algorithm</h5>
+                        <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                            <span class="badge-tech">Booth's Algo</span>
+                            <span class="badge-tech">Arithmetic</span>
+                            <span class="badge-tech">C</span>
+                            <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
+                                data-tooltip="Signed binary multiplication via two's complement.">Logic</span>
+                        </div>
+                        <p class="flex-grow-1">Implementation of Booth's Multiplication Algorithm for signed binary
+                            numbers using two's complement arithmetic.</p>
+                        <a href="https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-2"
+                            class="launch-link mt-3" target="_blank" rel="noopener noreferrer">
+                            View Code <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Experiment 3: Restoring Division -->
+                <div class="col-md-6 reveal-left">
+                    <div class="card-custom d-flex flex-column h-100">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-divide"></i>
+                        </div>
+                        <span class="exp-tag">EXPERIMENT 03</span>
+                        <h5>Restoring Division Algorithm</h5>
+                        <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                            <span class="badge-tech">Division</span>
+                            <span class="badge-tech">Arithmetic</span>
+                            <span class="badge-tech">C</span>
+                            <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
+                                data-tooltip="High-efficiency binary division algorithm.">Logic</span>
+                        </div>
+                        <p class="flex-grow-1">Implementation of Restoring Division Algorithm to perform binary division
+                            of unsigned integers.</p>
+                        <a href="https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-3"
+                            class="launch-link mt-3" target="_blank" rel="noopener noreferrer">
+                            View Code <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Experiment 4: Ripple Carry Adder -->
+                <div class="col-md-6 reveal-right">
+                    <div class="card-custom d-flex flex-column h-100">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-plus-circle"></i>
+                        </div>
+                        <span class="exp-tag">EXPERIMENT 04</span>
+                        <h5>Ripple Carry Adder Design</h5>
+                        <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                            <span class="badge-tech">Adders</span>
+                            <span class="badge-tech">Logic Design</span>
+                            <span class="badge-tech">Logisim</span>
+                            <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
+                                data-tooltip="Gate-level 4-bit ripple carry adder logic.">Circuit</span>
+                        </div>
+                        <p class="flex-grow-1">Design of Half Adder, Full Adder and 4-bit Ripple Carry Adder using
+                            Logisim digital circuit simulator.</p>
+                        <a href="https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-4"
+                            class="launch-link mt-3" target="_blank" rel="noopener noreferrer">
+                            View Code <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Experiment 5: ALU Design -->
+                <div class="col-md-6 reveal-left">
+                    <div class="card-custom d-flex flex-column h-100">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <span class="exp-tag">EXPERIMENT 05</span>
+                        <h5>ALU Design</h5>
+                        <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                            <span class="badge-tech">ALU</span>
+                            <span class="badge-tech">Logic Design</span>
+                            <span class="badge-tech">Logisim</span>
+                            <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
+                                data-tooltip="Arithmetic and bitwise operation control unit.">Circuit</span>
+                        </div>
+                        <p class="flex-grow-1">Design and simulation of an Arithmetic Logic Unit (ALU) capable of
+                            performing arithmetic and bitwise operations.</p>
+                        <a href="https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-5"
+                            class="launch-link mt-3" target="_blank" rel="noopener noreferrer">
+                            View Code <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Experiment 6: Shift Register -->
+                <div class="col-md-6 reveal-right">
+                    <div class="card-custom d-flex flex-column h-100">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-memory"></i>
+                        </div>
+                        <span class="exp-tag">EXPERIMENT 06</span>
+                        <h5>Shift Register Design</h5>
+                        <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                            <span class="badge-tech">Shift Registers</span>
+                            <span class="badge-tech">Sequential Logic</span>
+                            <span class="badge-tech">Logisim</span>
+                            <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
+                                data-tooltip="SISO, PIPO, and bidirectional shift registers.">Circuit</span>
+                        </div>
+                        <p class="flex-grow-1">Design of Serial-In Serial-Out (SISO), PIPO, Left Shift and Right Shift
+                            registers using Flip-Flops.</p>
+                        <a href="https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-6"
+                            class="launch-link mt-3" target="_blank" rel="noopener noreferrer">
+                            View Code <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Experiment 7: RAM & ROM -->
+                <div class="col-md-6 reveal-left">
+                    <div class="card-custom d-flex flex-column h-100">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-sd-card"></i>
+                        </div>
+                        <span class="exp-tag">EXPERIMENT 07</span>
+                        <h5>RAM and ROM Simulation</h5>
+                        <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                            <span class="badge-tech">Memory</span>
+                            <span class="badge-tech">Storage</span>
+                            <span class="badge-tech">Logisim</span>
+                            <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
+                                data-tooltip="Simulation of RAM and ROM memory units.">Circuit</span>
+                        </div>
+                        <p class="flex-grow-1">Simulation of RAM (Random Access Memory) and ROM (Read Only Memory) using
+                            Logisim digital circuit simulator.</p>
+                        <a href="https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-7"
+                            class="launch-link mt-3" target="_blank" rel="noopener noreferrer">
+                            View Code <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Experiment 8: Bus Study -->
+                <div class="col-md-6 reveal-right">
+                    <div class="card-custom d-flex flex-column h-100">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <span class="exp-tag">EXPERIMENT 08</span>
+                        <h5>Case Study: ISA, PCI and USB</h5>
+                        <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                            <span class="badge-tech">Bus Architectures</span>
+                            <span class="badge-tech">PCI/ISA/USB</span>
+                            <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
+                                data-tooltip="Study of ISA, PCI, and modern USB standards.">Case Study</span>
+                        </div>
+                        <p class="flex-grow-1">Case study on different bus architectures including ISA, PCI and USB
+                            standards in computer systems.</p>
+                        <a href="https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-8"
+                            class="launch-link mt-3" target="_blank" rel="noopener noreferrer">
+                            View Code <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Experiment 9: Multi-Core Processors -->
+                <div class="col-md-6 reveal-left">
+                    <div class="card-custom d-flex flex-column h-100">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <span class="exp-tag">EXPERIMENT 09</span>
+                        <h5>Case Study: Multi-Core Processors</h5>
+                        <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                            <span class="badge-tech">Parallelism</span>
+                            <span class="badge-tech">Multi-Core</span>
+                            <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
+                                data-tooltip="Multi-core and parallel processing study.">Case Study</span>
+                        </div>
+                        <p class="flex-grow-1">Case study on Multi-Core Processors, parallel processing architectures
+                            and performance optimization techniques.</p>
+                        <a href="https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-9"
+                            class="launch-link mt-3" target="_blank" rel="noopener noreferrer">
+                            View Code <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Experiment 10: Interrupts -->
+                <div class="col-md-6 reveal-right">
+                    <div class="card-custom d-flex flex-column h-100">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <span class="exp-tag">EXPERIMENT 10</span>
+                        <h5>Types of Interrupts & Handling</h5>
+                        <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                            <span class="badge-tech">Interrupts</span>
+                            <span class="badge-tech">I/O Control</span>
+                            <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
+                                data-tooltip="Hardware and software interrupt handling logic.">Case Study</span>
+                        </div>
+                        <p class="flex-grow-1">Study of types of Interrupts (hardware, software, maskable) and
+                            techniques to handle interrupts in processors.</p>
+                        <a href="https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-10"
+                            class="launch-link mt-3" target="_blank" rel="noopener noreferrer">
+                            View Code <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section aria-labelledby="the-wall-title" id="the-wall" class="reveal mt-4">
+            <div class="section-title">
+                <h3 id="the-wall-title" class="mb-0">The Wall</h3>
+                <p class="text-secondary ms-2 mb-0">Collaborative<br>Study Notes</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <!-- Collaborative Profiles -->
+                <div class="col-md-5 mb-4 reveal-left">
+                    <div class="profile-card">
+                        <div class="profile-img-wrapper">
+                            <img src="https://github.com/Amey-Thakur.png" alt="Amey Thakur" class="profile-img">
+                        </div>
+                        <h4 class="profile-name">Amey Thakur</h4>
+                        <p class="profile-role">Author & Curator</p>
+                        <div class="social-links">
+                            <a href="https://github.com/Amey-Thakur" class="text-secondary me-2" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/amey-thakur" class="text-secondary" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 mb-4 reveal-right">
+                    <div class="profile-card">
+                        <div class="profile-img-wrapper">
+                            <img src="../THE WALL/Mega_Satish.png" alt="Mega Satish" class="profile-img">
+                        </div>
+                        <h4 class="profile-name">Mega Satish</h4>
+                        <p class="profile-role">Author & Collaborator</p>
+                        <div class="social-links">
+                            <a href="https://github.com/msatmod" class="text-secondary me-2" target="_blank"
+                                aria-label="Mega's GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/mega-satish" class="text-secondary" target="_blank"
+                                aria-label="Mega's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Special Thanks Visual with 3D Flip -->
+                <div class="col-lg-10 col-12 reveal text-center mb-2">
+                    <div class="award-scene d-inline-block">
+                        <div class="award-badge-card">
+                            <!-- Front Face -->
+                            <div class="award-badge-face award-front d-flex align-items-center gap-3 py-2 px-4 rounded-pill border border-secondary-subtle"
+                                style="background: var(--card-bg);">
+                                <i class="fas fa-heart text-danger fs-5 heart-beat"></i>
+                                <span class="text-secondary fw-medium">Special Thanks to <strong
+                                        class="text-primary-theme">Mega Satish</strong></span>
+                            </div>
+                            <!-- Back Face -->
+                            <div class="award-badge-face award-back d-flex align-items-center justify-content-center gap-2 py-2 px-4 rounded-pill"
+                                style="background: var(--accent-color); color: white;">
+                                <i class="fas fa-check-circle text-white fs-5"></i>
+                                <span class="fw-bold" id="award-msg">Appreciation Sent!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chapter Notes List (Horizontal Cards) -->
+                <div class="col-lg-10 col-12">
+                    <div class="resource-list">
+                        <!-- Chapter 1 -->
+                        <div class="reveal">
+                            <a href="../THE WALL/COA_Chapter-1.pdf" class="resource-item text-decoration-none"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-file-pdf text-danger fs-4 me-3"></i>
+                                    <div>
+                                        <h6 class="mb-0 text-primary-theme fw-bold">COA Chapter - 1</h6>
+                                        <small class="text-secondary">Introduction to Computer Organization</small>
+                                    </div>
+                                </div>
+                                <span class="badge btn-download tilt-effect">
+                                    <span class="btn-text"><i class="fas fa-download"></i> Download PDF</span>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- Chapter 2 -->
+                        <div class="reveal">
+                            <a href="../THE WALL/COA_Chapter-2.pdf" class="resource-item text-decoration-none"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-file-pdf text-danger fs-4 me-3"></i>
+                                    <div>
+                                        <h6 class="mb-0 text-primary-theme fw-bold">COA Chapter - 2</h6>
+                                        <small class="text-secondary">Register Organization & ISA</small>
+                                    </div>
+                                </div>
+                                <span class="badge btn-download tilt-effect">
+                                    <span class="btn-text"><i class="fas fa-download"></i> Download PDF</span>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- Chapter 3 -->
+                        <div class="reveal">
+                            <a href="../THE WALL/COA_Chapter-3.pdf" class="resource-item text-decoration-none"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-file-pdf text-danger fs-4 me-3"></i>
+                                    <div>
+                                        <h6 class="mb-0 text-primary-theme fw-bold">COA Chapter - 3</h6>
+                                        <small class="text-secondary">Control Unit Design</small>
+                                    </div>
+                                </div>
+                                <span class="badge btn-download tilt-effect">
+                                    <span class="btn-text"><i class="fas fa-download"></i> Download PDF</span>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- Chapter 4 -->
+                        <div class="reveal">
+                            <a href="../THE WALL/COA_Chapter-4.pdf" class="resource-item text-decoration-none"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-file-pdf text-danger fs-4 me-3"></i>
+                                    <div>
+                                        <h6 class="mb-0 text-primary-theme fw-bold">COA Chapter - 4</h6>
+                                        <small class="text-secondary">Memory Organization & Cache</small>
+                                    </div>
+                                </div>
+                                <span class="badge btn-download tilt-effect">
+                                    <span class="btn-text"><i class="fas fa-download"></i> Download PDF</span>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- Chapter 5 -->
+                        <div class="reveal">
+                            <a href="../THE WALL/COA_Chapter-5.pdf" class="resource-item text-decoration-none"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-file-pdf text-danger fs-4 me-3"></i>
+                                    <div>
+                                        <h6 class="mb-0 text-primary-theme fw-bold">COA Chapter - 5</h6>
+                                        <small class="text-secondary">I/O Organization</small>
+                                    </div>
+                                </div>
+                                <span class="badge btn-download tilt-effect">
+                                    <span class="btn-text"><i class="fas fa-download"></i> Download PDF</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Arithmetic Logic Visualizer - Booth's Algorithm -->
+        <section aria-labelledby="logic-visualizer-title" id="logic-visualizer">
+            <div class="section-title reveal">
+                <h3 id="logic-visualizer-title">Arithmetic Logic Visualizer</h3>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-10 col-12">
+                    <div class="card-custom logic-visualizer-card">
+                        <div class="row g-4 g-lg-5 align-items-center">
+                            <!-- Project Info -->
+                            <div class="col-md-6">
+                                <div class="visualizer-info">
+                                    <div class="icon-wrapper mb-3">
+                                        <i class="fas fa-microchip"></i>
+                                    </div>
+                                    <span class="exp-tag">ALGORITHM VISUALIZER</span>
+                                    <h4 class="mt-2 mb-3 text-primary-theme fw-bold">Booth's Algorithm Visualizer</h4>
+                                    <p class="text-secondary mb-3" style="font-size: 0.9rem;">
+                                        An interactive visualizer for Booth's Multiplication Algorithm. Enter two signed
+                                        integers to see the step-by-step bitwise operations, shifting, and accumulation
+                                        processing used in modern processors.
+                                    </p>
+
+                                    <!-- Inputs -->
+                                    <div class="row g-2 mb-3">
+                                        <div class="col-6">
+                                            <label for="multiplicand" class="form-label"
+                                                style="font-size: 0.8rem; color: var(--text-secondary);">Multiplicand
+                                                (M)</label>
+                                            <input type="number" id="multiplicand" class="form-control"
+                                                placeholder="e.g. 7"
+                                                style="background: var(--bg-color); color: var(--text-primary); border: 1px solid var(--border-color);">
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="multiplier" class="form-label"
+                                                style="font-size: 0.8rem; color: var(--text-secondary);">Multiplier
+                                                (Q)</label>
+                                            <input type="number" id="multiplier" class="form-control"
+                                                placeholder="e.g. 3"
+                                                style="background: var(--bg-color); color: var(--text-primary); border: 1px solid var(--border-color);">
+                                        </div>
+                                    </div>
+
+                                    <!-- Action Buttons -->
+                                    <div class="row g-2">
+                                        <div class="col-6">
+                                            <button id="visualize-btn" class="btn btn-primary-custom w-100">
+                                                <i class="fas fa-play me-2"></i>Visualize
+                                            </button>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/tree/main/Processor%20Architecture%20Lab/Experiment-2"
+                                                class="btn btn-primary-custom btn-secondary-custom w-100"
+                                                target="_blank" rel="noopener noreferrer">
+                                                <i class="fas fa-code me-2"></i>Source Code
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Interactive Terminal Showcase -->
+                            <div class="col-md-6">
+                                <div class="terminal-frame">
+                                    <div class="terminal-header">
+                                        <div class="terminal-dots">
+                                            <span class="dot close"></span>
+                                            <span class="dot minimize"></span>
+                                            <span class="dot maximize"></span>
+                                        </div>
+                                        <div class="terminal-title">pal — booths_algo.c</div>
+                                    </div>
+                                    <div class="terminal-body" id="booths-output">
+                                        <div class="terminal-line">
+                                            <span class="prompt">amey@pal:~$</span> ./booths_visualizer
+                                        </div>
+                                        <div class="terminal-line output text-secondary">
+                                            Waiting for input...
+                                        </div>
+                                        <div class="terminal-line">
+                                            <span class="prompt">amey@pal:~$</span> <span class="cursor">_</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer mt-auto">
+            <p>2018 - 2022 &copy; All Rights Reserved | Designed and Developed by <a
+                    href="https://github.com/Amey-Thakur" target="_blank" rel="noopener noreferrer">Amey
+                    Thakur</a></p>
+        </footer>
+
+    </main>
+
+    <!-- Back to Top Button -->
+    <button type="button" class="btn" id="btn-back-to-top" aria-label="Back to Top">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Keyboard Shortcut Hint -->
+    <div id="kbd-hint" class="kbd-hint">
+        <span>Press</span>
+        <kbd>Ctrl</kbd>
+        <span>+</span>
+        <kbd>K</kbd>
+        <span>to search</span>
+    </div>
+
+    <!-- Command Palette Overlay -->
+    <div id="cmd-overlay" class="cmd-overlay">
+        <div class="cmd-modal">
+            <div class="cmd-header">
+                <i class="fas fa-search"></i>
+                <input type="text" id="cmd-input" placeholder="Search experiments, notes, or commands..."
+                    autocomplete="off">
+                <div class="cmd-esc"><kbd>ESC</kbd></div>
+            </div>
+            <div class="cmd-body" id="cmd-results">
+                <!-- Results populated by JS -->
+            </div>
+            <div class="cmd-footer">
+                <div class="cmd-keys">
+                    <span><kbd class="k-small">↑↓</kbd> Navigate</span>
+                    <span><kbd class="k-small">↵</kbd> Select</span>
+                    <span><kbd class="k-small">ESC</kbd> Close</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Scripts -->
+    <script src="script.js"></script>
+
+    <!-- Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(reg => console.log('Service Worker registered'))
+                .catch(err => console.log('Service Worker registration failed:', err));
+        }
+    </script>
+</body>
+
+</html>

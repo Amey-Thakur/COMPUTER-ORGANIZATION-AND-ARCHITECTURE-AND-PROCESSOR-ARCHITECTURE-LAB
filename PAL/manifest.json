@@ -1,0 +1,44 @@
+{
+    "name": "COA/PAL Lab Portfolio",
+    "short_name": "PAL Lab",
+    "description": "Interactive portfolio for Computer Organization and Architecture & Processor Architecture Lab by Amey Thakur.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#0f172a",
+    "theme_color": "#2563eb",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "assets/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "assets/screenshot-wide.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "PAL Lab Portfolio - Wide"
+        },
+        {
+            "src": "assets/screenshot-narrow.png",
+            "sizes": "640x1136",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "PAL Lab Portfolio - Narrow"
+        }
+    ],
+    "categories": [
+        "education",
+        "productivity"
+    ]
+}
