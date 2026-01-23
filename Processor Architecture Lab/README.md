@@ -28,6 +28,8 @@
 ---
 
 > [!TIP]
+> **Live Implementation**: For a comprehensive visual showcase, visit the [PAL Portfolio Dashboard](https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/). For the complete source code and detailed documentation, visit the [Processor Architecture Lab](../Processor%20Architecture%20Lab/) directory. Visualization is key. Always trace your algorithm's execution flow on paper before coding. Create timing diagrams and truth tables to verify hardware-software logic.
+>
 > **Circuit Visualization**: When working with Logisim circuits, always trace signal propagation step-by-step and verify truth tables for each component. For algorithms like Booth's multiplication and restoring division, draw timing diagrams showing register states at each clock cycle. Understanding the hardware-software relationship is key to mastering processor architecture.
 
 > [!WARNING]
