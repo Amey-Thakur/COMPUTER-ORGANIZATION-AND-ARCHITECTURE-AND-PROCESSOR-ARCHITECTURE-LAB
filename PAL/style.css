@@ -1295,4 +1295,17 @@ section {
     will-change: transform;
     display: inline-flex;
     align-items: center;
-}
+} 
+  
+ / *   F o o t e r   L i n k   S t y l i n g   * /  
+ . f o o t e r   a   {  
+         c o l o r :   v a r ( - - t e x t - p r i m a r y ) ;  
+         t e x t - d e c o r a t i o n :   n o n e ;  
+         f o n t - w e i g h t :   6 0 0 ;  
+         t r a n s i t i o n :   c o l o r   0 . 3 s   e a s e ;  
+ }  
+  
+ . f o o t e r   a : h o v e r   {  
+         c o l o r :   v a r ( - - a c c e n t - c o l o r ) ;  
+ }  
+ 
