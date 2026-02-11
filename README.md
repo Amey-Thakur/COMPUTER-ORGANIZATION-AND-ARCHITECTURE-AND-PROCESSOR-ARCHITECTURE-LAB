@@ -57,7 +57,8 @@ As I progress in my career, I recognize that computer architecture fundamentals 
 - **Academic Documentation**: To authentically document my learning journey through COA and PAL.
 - **Community Contribution**: To share these resources with students and learners who may benefit from them.
 
-All materials in this repository were gathered, organized, and documented by me during my undergraduate studies (2018-2022) as part of my coursework and exam preparation.
+> [!NOTE]
+> All materials in this repository were created, compiled, and organized by me throughout my undergraduate program (2018-2022) as part of my coursework, laboratory assignments, and project implementations.
 
 ---
 
