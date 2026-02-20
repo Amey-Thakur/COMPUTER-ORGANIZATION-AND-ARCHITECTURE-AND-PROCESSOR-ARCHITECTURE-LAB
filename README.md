@@ -35,14 +35,14 @@ Computer Organization and Architecture (CSC403) and Processor Architecture Lab (
 
 The curriculum encompasses several key domains in computer system architecture:
 
-- **Computer Organization Fundamentals**: Register organization, instruction set architecture, addressing modes
-- **Control Unit Design**: Hardwired control, micro-programmed control, control memory organization
-- **Arithmetic Operations**: Binary arithmetic, Booth's multiplication algorithm, restoring division
-- **Memory Organization**: Memory hierarchy, cache mapping techniques (direct, associative, set-associative)
-- **Cache Memory**: Cache coherence, interleaving, memory partitioning, paging concepts
-- **Input/Output Organization**: I/O interfaces, interrupt handling, DMA
-- **Processor Design**: ALU design, adder circuits, shift registers, digital logic implementation
-- **Pipeline Architecture**: Instruction pipelining, hazards, and optimization techniques
+- **Computer Organization Fundamentals**: Register organization, instruction set architecture, addressing modes.
+- **Control Unit Design**: Hardwired control, micro-programmed control, control memory organization.
+- **Arithmetic Operations**: Binary arithmetic, Booth's multiplication algorithm, restoring division.
+- **Memory Organization**: Memory hierarchy, cache mapping techniques (direct, associative, set-associative).
+- **Cache Memory**: Cache coherence, interleaving, memory partitioning, paging concepts.
+- **Input/Output Organization**: I/O interfaces, interrupt handling, DMA.
+- **Processor Design**: ALU design, adder circuits, shift registers, digital logic implementation.
+- **Pipeline Architecture**: Instruction pipelining, hazards, and optimization techniques.
 
 ### Repository Purpose
 
