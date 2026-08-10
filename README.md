@@ -9,10 +9,10 @@
 
   ### CSC403 & CSL403 · Semester IV · Computer Engineering
 
-  [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
-  [![University](https://img.shields.io/badge/University-Mumbai-%23A6192E.svg)](https://mu.ac.in/)
-  [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-orange.svg)](https://ternaengg.ac.in/)
-  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
+  [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-9E9E9E.svg)](LICENSE)
+  [![University](https://img.shields.io/badge/University-Mumbai-A6192E.svg)](https://mu.ac.in/)
+  [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-E8710A.svg)](https://ternaengg.ac.in/)
+  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
 
   **A comprehensive academic resource for Computer Organization and Architecture (COA) and Processor Architecture Laboratory (PAL), covering fundamental computer system design, memory organization, processor architecture, and digital circuit implementation.**
 
@@ -185,11 +185,11 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 
 <div align="center">
 
-  [![Total Experiments](https://img.shields.io/badge/Total%20Experiments-10-yellowgreen.svg)](Processor%20Architecture%20Lab/)
-  [![Language](https://img.shields.io/badge/Language-C%20%7C%20Logisim-blueviolet.svg)](Processor%20Architecture%20Lab/)
-  [![Lab Manual](https://img.shields.io/badge/Lab%20Manual-Available-brightgreen.svg)](Processor%20Architecture%20Lab/PRACTICAL%20LAB.pdf)
+  [![Total Experiments](https://img.shields.io/badge/Total%20Experiments-10-827717.svg)](Processor%20Architecture%20Lab/)
+  [![Language](https://img.shields.io/badge/Language-C%20%7C%20Logisim-8250DF.svg)](Processor%20Architecture%20Lab/)
+  [![Lab Manual](https://img.shields.io/badge/Lab%20Manual-Available-5D4037.svg)](Processor%20Architecture%20Lab/PRACTICAL%20LAB.pdf)
 
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-PAL%20Portfolio-007bff?style=flat&logo=github)](https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/)
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-PAL%20Portfolio-00B8D9?style=flat&logo=github)](https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/)
 
 
 

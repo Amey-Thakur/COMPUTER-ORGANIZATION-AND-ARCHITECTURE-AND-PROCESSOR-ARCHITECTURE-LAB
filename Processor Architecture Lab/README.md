@@ -10,10 +10,10 @@
   ### CSL403 · Semester IV · Computer Engineering
 
   <!-- Badges -->
-  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
-  [![Experiments](https://img.shields.io/badge/Experiments-10-yellowgreen.svg)](#quick-navigation)
-  [![Language](https://img.shields.io/badge/Language-C%20%7C%20Logisim-blueviolet.svg)](.)
-  [![Lab Manual](https://img.shields.io/badge/Lab%20Manual-Available-brightgreen.svg)](PRACTICAL%20LAB.pdf)
+  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
+  [![Experiments](https://img.shields.io/badge/Experiments-10-827717.svg)](#quick-navigation)
+  [![Language](https://img.shields.io/badge/Language-C%20%7C%20Logisim-8250DF.svg)](.)
+  [![Lab Manual](https://img.shields.io/badge/Lab%20Manual-Available-5D4037.svg)](PRACTICAL%20LAB.pdf)
 
   <!-- Short Description -->
   **A comprehensive collection of 10 experiments covering processor architecture, arithmetic algorithms, digital circuit design, and memory organization with detailed documentation and industry-standard practices.**
@@ -28,7 +28,7 @@
 ---
 <div align="center">
 
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-PAL%20Portfolio-007bff?style=flat&logo=github)](https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/)
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-PAL%20Portfolio-00B8D9?style=flat&logo=github)](https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/)
 
 </div>
 
