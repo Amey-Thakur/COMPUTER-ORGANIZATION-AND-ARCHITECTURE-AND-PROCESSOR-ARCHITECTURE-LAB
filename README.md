@@ -224,6 +224,8 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 |:---|:---|:---|:-:|
 | `Booths_Multiplication_Algorithm.c` | Booth's Algorithm | Signed binary multiplication using two's complement | [View](Processor%20Architecture%20Lab/Experiment-2/Booths_Multiplication_Algorithm.c) |
 
+**Output**: [Program output](Processor%20Architecture%20Lab/Experiment-2/Output.png)
+
 </details>
 
 <details>
@@ -240,7 +242,7 @@ The laboratory component (CSL403) focuses on hands-on implementation of processo
 
 | Circuit | Components | Outputs | File |
 |:---|:---|:---|:-:|
-| `RIPPLE_CARRY_ADDER.circ` | Half Adder, Full Adder | 4-bit Addition | [View](Processor%20Architecture%20Lab/Experiment-4/) |
+| `RIPPLE_CARRY_ADDER.circ` | Half Adder, Full Adder | 4-bit Addition | [View](Processor%20Architecture%20Lab/Experiment-4/RIPPLE_CARRY_ADDER.circ) |
 
 **Circuit Diagrams**: [Half Adder](Processor%20Architecture%20Lab/Experiment-4/HALF_ADDER.png) · [Full Adder](Processor%20Architecture%20Lab/Experiment-4/FULL_ADDER.png) · [Ripple Carry Adder](Processor%20Architecture%20Lab/Experiment-4/RIPPLE_CARRY_ADDER.png)
 
