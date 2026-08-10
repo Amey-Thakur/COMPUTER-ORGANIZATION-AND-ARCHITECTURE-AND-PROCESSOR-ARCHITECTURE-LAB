@@ -11,7 +11,7 @@
 
   <!-- Badges -->
   [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
-  [![Experiments](https://img.shields.io/badge/Experiments-10-795548.svg)](#quick-navigation)
+  [![Experiments](https://img.shields.io/badge/Experiments-10-3949AB.svg)](#quick-navigation)
   [![Language](https://img.shields.io/badge/Language-C%20%7C%20Logisim-8250DF.svg)](.)
   [![Lab Manual](https://img.shields.io/badge/Lab%20Manual-Available-39FF14.svg)](PRACTICAL%20LAB.pdf)
 
