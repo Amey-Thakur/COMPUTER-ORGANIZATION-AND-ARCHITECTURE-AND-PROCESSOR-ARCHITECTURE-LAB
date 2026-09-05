@@ -1,0 +1,43 @@
+# Computer Organization and Architecture and Processor Architecture Lab
+
+> CSC403: Computer Organization and Architecture [COA] & CSL403: Processor
+> Architecture Lab [PAL] | SE Semester IV | Computer Engineering
+
+Author: Amey Thakur, ORCID 0000-0001-5644-1575
+Co-author: Mega Satish, ORCID 0000-0002-1844-9557
+Institution: Terna Engineering College, University of Mumbai
+Programme: B.E. Computer Engineering, Second Year, Semester IV
+Course codes: CSC403, CSL403
+Licence: CC BY 4.0, attribution required
+Repository created: 7 February 2022
+Work dated: 12 August 2020
+
+## What is in this repository
+
+- Assignments, 4 files
+- My Preparation, 2 files
+- PAL, 17 files
+- Processor Architecture Lab, 20 files
+- Reference Books, 17 files
+- THE WALL, 6 files
+- Blueprint (COA).png
+- COA_Test_B-50.pdf
+- Certificate.jpg
+- SE-Comps_CBCGS_Syllabus.pdf
+- Submission Completion Report COA_PAL (Amey B-50).pdf
+
+## Subject terms
+
+booths-algorithm, cache-mapping, computer-architecture,
+computer-engineering, computer-organization, computer-science,
+engineering, logisim, microprogramming, processor-architecture,
+processor-architecture-lab, processor-design, reference-books, textbooks,
+university-of-mumbai
+
+## Where this sits
+
+- This repository: https://github.com/Amey-Thakur/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB
+- Degree index, every subject and project: https://github.com/Amey-Thakur/COMPUTER-ENGINEERING
+- Project page: https://amey-thakur.github.io/COMPUTER-ORGANIZATION-AND-ARCHITECTURE-AND-PROCESSOR-ARCHITECTURE-LAB/
+- Author: https://github.com/Amey-Thakur
+- Research notes and reflections: https://amey-thakur.github.io/
